@@ -5,6 +5,18 @@ Item Galeria - {{ title }}
     nombre: {{ nombreItem }}
 </p>
 <!--event binding: () -> Evento -->
-<button (click)="alertar()">
+<!--interpolacion: {{  }} -->
+<button >
     {{ textoBoton }}
 </button>
+
+
+<!-- porperty binding: [] -> propiedades -->
+<img [src]="url" alt="" (click)="cambiarImagen()" >
+
+<!-- Directivas: *ngFor -->
+
+<p *ngFor="let nota of notas">
+    {{nota}}
+
+</p>
