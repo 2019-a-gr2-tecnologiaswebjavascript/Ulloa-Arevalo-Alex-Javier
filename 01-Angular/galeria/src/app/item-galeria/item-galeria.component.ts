@@ -1,11 +1,12 @@
-import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
+import { Component, OnInit, Input, Output, EventEmitter, OnDestroy } from '@angular/core';
+import { CarritoService } from '../servicios/carrito/carrito.service';
 
 @Component({
   selector: 'app-item-galeria',
   templateUrl: './item-galeria.component.html',
   styleUrls: ['./item-galeria.component.css']
 })
-export class ItemGaleriaComponent implements OnInit {
+export class ItemGaleriaComponent implements OnInit, OnDestroy {
 
   title = 'Licoreria';
 
@@ -16,14 +17,26 @@ export class ItemGaleriaComponent implements OnInit {
   // let permite cambiar el valor
 
   @Input()
+  titulo;
+
+  @Input()
   textoBoton;
 
   @Input()
   nombreItem;
 
-  constructor() { }
+  // Dependency Injection
+  // Inyeccion de dependencias.
+  // las dependencias en los componentes son los SERVICIOS -> COMPARTIDOS ENTRE COMPONENTES Y SERVICIOS
+  constructor(private readonly _carritoService: CarritoService ) { }
 
   ngOnInit() {
+    console.log('empezo!');
+    console.log(this._carritoService.carritoCompras);
+  }
+
+  ngOnDestroy(){
+    console.log('rip');
   }
 
   alertar(){
@@ -49,14 +62,40 @@ export class ItemGaleriaComponent implements OnInit {
  
   }
 
-  notas = [1,2,3,4,5,6,7,8,9,10]
+  @Input()
+  notas;
 
   @Output()
   cambioChela: EventEmitter<boolean> = new EventEmitter()
 
   @Output()
   cambioCerveza: EventEmitter<boolean> = new EventEmitter()
+
+  agregarCarrito(valorCarrito){
+    //this._carritoService.carritoCompras.push(itemCarrito);
+    
+    const itemCarrito = {
+      valor: valorCarrito,
+      nombreTienda: this.titulo
+    }
+    
+    this._carritoService.carritoCompras.splice(0,0,itemCarrito); // para agregar al principio
+    console.log(this._carritoService.carritoCompras);
+  }
+
 }
+
+/*
+Ciclo de vida del componente
+Vivir 
+Morir
+
+ngOnInit -> OnInit aqui empieza el componente
+
+ngOnDestroy -> OnDestroy aqui termina el componente
+
+*/
+
 /*
 @DecoreatorsClase() // -> Funcion que se ejecuta antes de algo
 class Usuario{
