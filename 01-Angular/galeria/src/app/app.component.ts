@@ -39,6 +39,7 @@ export class AppComponent {
       notas: [
         'Motes',
         'Choclos',
+        'Papitas',
       ]
     },
     {
@@ -48,6 +49,7 @@ export class AppComponent {
       notas: [
         'Cervezas',
         'Trago',
+        'Papitas',
       ]
     }
   ]

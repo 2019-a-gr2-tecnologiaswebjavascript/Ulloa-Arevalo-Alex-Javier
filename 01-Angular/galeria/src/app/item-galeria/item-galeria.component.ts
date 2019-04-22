@@ -1,6 +1,8 @@
 import { Component, OnInit, Input, Output, EventEmitter, OnDestroy } from '@angular/core';
 import { CarritoService } from '../servicios/carrito/carrito.service';
 
+import { ItemCarritoCompras } from '../interfaces/item-carrito-compras';
+
 @Component({
   selector: 'app-item-galeria',
   templateUrl: './item-galeria.component.html',
@@ -71,19 +73,34 @@ export class ItemGaleriaComponent implements OnInit, OnDestroy {
   @Output()
   cambioCerveza: EventEmitter<boolean> = new EventEmitter()
 
-  agregarCarrito(valorCarrito){
+  agregarCarrito(valorCarrito: string){
     //this._carritoService.carritoCompras.push(itemCarrito);
     
-    const itemCarrito = {
+    const itemCarrito: ItemCarritoCompras = {
       valor: valorCarrito,
-      nombreTienda: this.titulo
-    }
-    
-    this._carritoService.carritoCompras.splice(0,0,itemCarrito); // para agregar al principio
-    console.log(this._carritoService.carritoCompras);
+      nombreTienda: this.titulo,
+      fechaCompra: new Date()
+    };
+    const respuestaCarrito = this._carritoService.agregarCarritoCompras(itemCarrito);
+    //this._carritoService.carritoCompras.splice(0,0,itemCarrito); // para agregar al principio
+    //console.log(this._carritoService.carritoCompras);
+
+    console.log(respuestaCarrito);
+
   }
 
 }
+
+
+/*
+EN TS normalmente se utiliza solo las interfaces, sin la clase
+class CarritoCompraClass implements CarritoComprasInterface {
+  
+  valor: string;
+  nombreTienda: string;
+  fechaCompra?: Date; // ? -> definir que es pocional
+}
+*/
 
 /*
 Ciclo de vida del componente
