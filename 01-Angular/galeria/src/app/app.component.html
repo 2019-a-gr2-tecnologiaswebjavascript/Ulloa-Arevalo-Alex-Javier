@@ -1,13 +1,30 @@
-<h1 class='rojo' > Titulo {{title}} </h1>
-<!-- {{ Interpolacion }} -->
-<app-item-galeria
-nombreItem="Papas"
-textoBoton="Fritas"
->
-</app-item-galeria>
+<h1 [class]="clase" > Titulo {{title}} </h1>
 
-<app-item-galeria
-nombreItem="Carne"
-textoBoton="Molida"
+<pre>
+
+    {{_carritoService.carritoCompras | json }}
+</pre>
+
+<button (click)="mostrar(true)" >Mostrar</button>
+<button (click)="mostrar(false)" >Ocultar</button>
+
+<!-- {{ Interpolacion }} -->
+
+<!-- ngIf destruye no oculta -->
+<!-- [hidden] en div nos sirve para ocultar
+[hidden]="!estaMostrando" -->
+<div *ngIf="estaMostrando"
+>
+
+<app-item-galeria 
+*ngFor="let flor of arregloFLoresJs" 
+[nombreItem] = "flor.nombre"
+[textoBoton] = "flor.descripcion"
+(cambioChela) = "cambioChela($event)"
+(cambioCerveza) = "cambioCerveza($event)"
+[titulo]="flor.titulo"
+[notas]="flor.notas"
 >
 </app-item-galeria>
+</div>
+

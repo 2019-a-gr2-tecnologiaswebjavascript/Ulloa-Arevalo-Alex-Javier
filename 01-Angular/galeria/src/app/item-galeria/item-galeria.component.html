@@ -1,10 +1,22 @@
 <h1 class="rojo"> 
-Item Galeria - {{ title }}
+Tienda: {{ titulo }}
 </h1>
 <p>
     nombre: {{ nombreItem }}
 </p>
 <!--event binding: () -> Evento -->
-<button (click)="alertar()">
+<!--interpolacion: {{  }} -->
+<button >
     {{ textoBoton }}
 </button>
+
+
+<!-- porperty binding: [] -> propiedades -->
+<img [src]="url" alt="" (click)="cambiarImagen()" >
+
+<!-- Directivas: *ngFor -->
+
+<div *ngFor="let nota of notas">
+    <button (click)="agregarCarrito(nota)" >Añadir: {{ nota }}</button>
+
+</div>
