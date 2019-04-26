@@ -2,6 +2,7 @@ import { Component, OnInit, Input, Output, EventEmitter, OnDestroy } from '@angu
 import { CarritoService } from '../servicios/carrito/carrito.service';
 
 import { ItemCarritoCompras } from '../interfaces/item-carrito-compras';
+import { TiendaCarritoCompras } from '../interfaces/tienda-carrito-compras';
 
 @Component({
   selector: 'app-item-galeria',
@@ -9,6 +10,11 @@ import { ItemCarritoCompras } from '../interfaces/item-carrito-compras';
   styleUrls: ['./item-galeria.component.css']
 })
 export class ItemGaleriaComponent implements OnInit, OnDestroy {
+
+  // Dependency Injection
+  // Inyeccion de dependencias.
+  // las dependencias en los componentes son los SERVICIOS -> COMPARTIDOS ENTRE COMPONENTES Y SERVICIOS
+  constructor(private readonly _carritoService: CarritoService ) { }
 
   title = 'Licoreria';
 
@@ -27,10 +33,14 @@ export class ItemGaleriaComponent implements OnInit, OnDestroy {
   @Input()
   nombreItem;
 
-  // Dependency Injection
-  // Inyeccion de dependencias.
-  // las dependencias en los componentes son los SERVICIOS -> COMPARTIDOS ENTRE COMPONENTES Y SERVICIOS
-  constructor(private readonly _carritoService: CarritoService ) { }
+  @Input()
+  notas;
+
+  @Output()
+  cambioChela: EventEmitter<boolean> = new EventEmitter()
+
+  @Output()
+  cambioCerveza: EventEmitter<boolean> = new EventEmitter()
 
   ngOnInit() {
     console.log('empezo!');
@@ -49,39 +59,38 @@ export class ItemGaleriaComponent implements OnInit, OnDestroy {
     alert('Alertando bliur');
   }
 
-  cambiarImagen(){
-    const url1= 'https://media.aweita.larepublica.pe/678x508/aweita/imagen/2018/03/07/noticia-seis-estudios-cientificos-que-demuestran-los-beneficios-de-la-cerveza-para-la-salud.png';
+  cambiarImagen() {
+// tslint:disable-next-line: max-line-length
+    const url1 = 'https://media.aweita.larepublica.pe/678x508/aweita/imagen/2018/03/07/noticia-seis-estudios-cientificos-que-demuestran-los-beneficios-de-la-cerveza-para-la-salud.png';
+    // tslint:disable-next-line:max-line-length
     const url2 = 'https://dpf77bhxauhdh.cloudfront.net/media/catalog/product/cache/1/image/650x/040ec09b1e35df139433887a97daa66f/c/e/cerveza-corona-extra-355-cc-pack-24-botellas.jpg';
-    
+
     if (this.url === url1){
       this.url = url2;
       this.cambioChela.emit(true);
-    }
-    else{
+    } else {
       this.url = url1;
       this.cambioCerveza.emit(true);
     }
- 
+
   }
 
-  @Input()
-  notas;
+  agregarCarrito(valorCarrito: string, tienda: string){
+    // this._carritoService.carritoCompras.push(itemCarrito);
 
-  @Output()
-  cambioChela: EventEmitter<boolean> = new EventEmitter()
+    const tiendaCarritoCompras: TiendaCarritoCompras = {
+      nombreTienda: tienda,
+      itemsCarritoComprados: [
+        {
+          valor: valorCarrito,
+          fechaCompra: new Date()
+        }
+      ]
 
-  @Output()
-  cambioCerveza: EventEmitter<boolean> = new EventEmitter()
+    }
 
-  agregarCarrito(valorCarrito: string){
-    //this._carritoService.carritoCompras.push(itemCarrito);
-    
-    const itemCarrito: ItemCarritoCompras = {
-      valor: valorCarrito,
-      nombreTienda: this.titulo,
-      fechaCompra: new Date()
-    };
-    const respuestaCarrito = this._carritoService.agregarCarritoCompras(itemCarrito);
+
+    const respuestaCarrito = this._carritoService.agregarCarritoCompras(tiendaCarritoCompras);
     //this._carritoService.carritoCompras.splice(0,0,itemCarrito); // para agregar al principio
     //console.log(this._carritoService.carritoCompras);
 
@@ -95,7 +104,7 @@ export class ItemGaleriaComponent implements OnInit, OnDestroy {
 /*
 EN TS normalmente se utiliza solo las interfaces, sin la clase
 class CarritoCompraClass implements CarritoComprasInterface {
-  
+
   valor: string;
   nombreTienda: string;
   fechaCompra?: Date; // ? -> definir que es pocional
@@ -104,7 +113,7 @@ class CarritoCompraClass implements CarritoComprasInterface {
 
 /*
 Ciclo de vida del componente
-Vivir 
+Vivir
 Morir
 
 ngOnInit -> OnInit aqui empieza el componente
@@ -132,7 +141,7 @@ class Usuario{
   }
 
   protected metodoProtected(){
-    
+
   }
 
 }
