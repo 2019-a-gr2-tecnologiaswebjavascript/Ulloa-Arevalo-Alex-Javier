@@ -1,3 +1,6 @@
+<!--
+
+
 <h1 [class]="clase" > Titulo {{title}} </h1>
 
 <pre>
@@ -8,11 +11,11 @@
 <button (click)="mostrar(true)" >Mostrar</button>
 <button (click)="mostrar(false)" >Ocultar</button>
 
-<!-- {{ Interpolacion }} -->
+{{ Interpolacion }} 
 
-<!-- ngIf destruye no oculta -->
-<!-- [hidden] en div nos sirve para ocultar
-[hidden]="!estaMostrando" -->
+ngIf destruye no oculta 
+[hidden] en div nos sirve para ocultar
+[hidden]="!estaMostrando" 
 <div *ngIf="estaMostrando"
 >
 
@@ -26,5 +29,65 @@
 [notas]="flor.notas"
 >
 </app-item-galeria>
+</div>
+
+-->
+
+<div class="contenedor">
+
+    <div class="row">
+        <div class="col-md-3">
+            Titulo
+        </div>
+        <div class="col-md-6 texto-derecha">
+            <div class="item-menu">Menu</div>
+            <div class="item-menu">Inicio</div>
+            <div class="item-menu">Peliculas</div>
+            <div class="item-menu">Tienda</div>
+            <div class="item-menu">Marvel</div>
+            <div class="item-menu">DC</div>
+
+        </div>
+        <div class="col-md-3">
+            Login
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-3">
+            Listas
+        </div>
+        <div class="col-md-9">
+            Contenido
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-1">1</div>
+        <div class="col-sm-1">2</div>
+        <div class="col-sm-1">3</div>
+        <div class="col-sm-1">4</div>
+        <div class="col-sm-1">5</div>
+        <div class="col-sm-1">6</div>
+        <div class="col-sm-1">7</div>
+        <div class="col-sm-1">8</div>
+        <div class="col-sm-1">9</div>
+        <div class="col-sm-1">10</div>
+        <div class="col-sm-1">11</div>
+        <div class="col-sm-1">12</div>
+    </div>
+    
+    <div class="row">
+        2
+    </div>
+    
+    <div class="row">
+        3
+    </div>
+    
+    <div class="row">
+        4
+    </div>
+
 </div>
 
