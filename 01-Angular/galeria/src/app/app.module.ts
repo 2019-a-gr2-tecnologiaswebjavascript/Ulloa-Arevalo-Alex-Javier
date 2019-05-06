@@ -18,6 +18,9 @@ import { MostrarCarritoComponent } from './mostrar-carrito/mostrar-carrito.compo
   providers: [ //servicios
     CarritoService
   ],
+  exports: [
+    ItemGaleriaComponent
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

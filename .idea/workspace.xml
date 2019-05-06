@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a6e042c1-ad6a-4634-89bf-2dc70f5326fd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/Ulloa-Arevalo-Alex-Javier.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/ajua_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-Angular/galeria/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/01-Angular/galeria/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-Angular/galeria/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/01-Angular/galeria/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-Angular/galeria/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/01-Angular/galeria/src/styles.css" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/01-Angular/tienda/src/app/app.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/01-Angular/tienda/src/styles.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="149" column="1" lean-forward="true" selection-start-line="149" selection-start-column="1" selection-end-line="149" selection-end-column="1" />
+              <folding>
+                <element signature="e#336#483#0" />
+                <element signature="e#505#652#0" />
+                <element signature="e#680#724#0" />
+                <element signature="e#756#779#0" />
+                <element signature="e#2785#2791#0" />
+                <element signature="e#2828#2834#0" />
+                <element signature="e#2611#2617#0" />
+                <element signature="e#2831#2837#0" />
+                <element signature="e#2980#2999#0" />
+                <element signature="e#3013#3019#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>ima</find>
+      <find>row</find>
+      <find>imag</find>
+      <find>contenedor-p</find>
+      <find>superior</find>
+      <find>izq</find>
+      <find>derecha</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/01-Angular/galeria/src/app/app.component.html" />
+        <option value="$PROJECT_DIR$/01-Angular/galeria/src/styles.css" />
+        <option value="$PROJECT_DIR$/01-Angular/galeria/src/index.html" />
+        <option value="$PROJECT_DIR$/01-Angular/tienda/angular.json" />
+        <option value="$PROJECT_DIR$/01-Angular/tienda/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/01-Angular/tienda/src/app/contenedor-producto/contenedor-producto.component.ts" />
+        <option value="$PROJECT_DIR$/01-Angular/tienda/src/app/contenedor-producto/contenedor-producto.component.html" />
+        <option value="$PROJECT_DIR$/01-Angular/tienda/src/app/item-menu/item-menu.component.html" />
+        <option value="$PROJECT_DIR$/01-Angular/tienda/src/app/item-menu/item-menu.component.ts" />
+        <option value="$PROJECT_DIR$/01-Angular/tienda/src/app/app.component.ts" />
+        <option value="$PROJECT_DIR$/01-Angular/tienda/src/app/contenedor-superior/contenedor-superior.component.ts" />
+        <option value="$PROJECT_DIR$/01-Angular/tienda/src/app/contenedor-superior/contenedor-superior.component.html" />
+        <option value="$PROJECT_DIR$/01-Angular/tienda/src/app/app.component.html" />
+        <option value="$PROJECT_DIR$/01-Angular/tienda/src/styles.css" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="960" />
+    <option name="width" value="960" />
+    <option name="height" value="1030" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Ulloa-Arevalo-Alex-Javier" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Ulloa-Arevalo-Alex-Javier" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Ulloa-Arevalo-Alex-Javier" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Ulloa-Arevalo-Alex-Javier" type="462c0819:PsiDirectoryNode" />
+              <item name="01-Angular" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Ulloa-Arevalo-Alex-Javier" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Ulloa-Arevalo-Alex-Javier" type="462c0819:PsiDirectoryNode" />
+              <item name="01-Angular" type="462c0819:PsiDirectoryNode" />
+              <item name="tienda" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Ulloa-Arevalo-Alex-Javier" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Ulloa-Arevalo-Alex-Javier" type="462c0819:PsiDirectoryNode" />
+              <item name="01-Angular" type="462c0819:PsiDirectoryNode" />
+              <item name="tienda" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Ulloa-Arevalo-Alex-Javier" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Ulloa-Arevalo-Alex-Javier" type="462c0819:PsiDirectoryNode" />
+              <item name="01-Angular" type="462c0819:PsiDirectoryNode" />
+              <item name="tienda" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Ulloa-Arevalo-Alex-Javier" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Ulloa-Arevalo-Alex-Javier" type="462c0819:PsiDirectoryNode" />
+              <item name="01-Angular" type="462c0819:PsiDirectoryNode" />
+              <item name="tienda" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="contenedor-superior" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Ulloa-Arevalo-Alex-Javier" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Ulloa-Arevalo-Alex-Javier" type="462c0819:PsiDirectoryNode" />
+              <item name="01-Angular" type="462c0819:PsiDirectoryNode" />
+              <item name="tienda" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="item-menu" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="editor.config.ad.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="ts.external.directory.path" value="C:\Users\ajua_\OneDrive\Documents\GitHub\Ulloa-Arevalo-Alex-Javier\01-Angular\tienda\node_modules\typescript\lib" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a6e042c1-ad6a-4634-89bf-2dc70f5326fd" name="Default Changelist" comment="" />
+      <created>1556767346282</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1556767346282</updated>
+      <workItem from="1556767347607" duration="5042000" />
+      <workItem from="1557010456886" duration="13702000" />
+      <workItem from="1557078057098" duration="9970000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="28714000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24653007" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="TypeScript" order="0" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Run" order="3" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.32941177" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32205883" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/ide/ide-scripting.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/block.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="248" column="16" selection-start-line="248" selection-start-column="16" selection-end-line="248" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-Angular/galeria/src/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="19" column="12" lean-forward="true" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-Angular/galeria/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-Angular/tienda/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-Angular/tienda/angular.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="25" column="60" selection-start-line="25" selection-start-column="60" selection-end-line="25" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-Angular/tienda/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="17" column="4" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-Angular/galeria/src/app/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-504">
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-Angular/galeria/src/app/app.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="29" selection-end-column="1" />
+          <folding>
+            <element signature="n#div#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-Angular/galeria/src/app/item-galeria/item-galeria.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="33" column="13" lean-forward="true" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#90#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-Angular/galeria/src/app/item-galeria/item-galeria.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-Angular/tienda/src/app/item-menu/item-menu.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-Angular/tienda/src/app/contenedor-producto/contenedor-producto.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-Angular/tienda/src/app/contenedor-producto/contenedor-producto.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-Angular/tienda/src/app/contenedor-superior/contenedor-superior.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-Angular/tienda/src/app/contenedor-superior/contenedor-superior.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#!!top" />
+            <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" />
+            <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" />
+            <element signature="n#div#2;n#div#0;n#div#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-Angular/tienda/src/app/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="30" lean-forward="true" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+          <folding>
+            <element signature="e#1011#1142#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-Angular/tienda/src/app/item-menu/item-menu.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-Angular/tienda/src/app/app.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-Angular/tienda/src/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="149" column="1" lean-forward="true" selection-start-line="149" selection-start-column="1" selection-end-line="149" selection-end-column="1" />
+          <folding>
+            <element signature="e#336#483#0" />
+            <element signature="e#505#652#0" />
+            <element signature="e#680#724#0" />
+            <element signature="e#756#779#0" />
+            <element signature="e#2785#2791#0" />
+            <element signature="e#2828#2834#0" />
+            <element signature="e#2611#2617#0" />
+            <element signature="e#2831#2837#0" />
+            <element signature="e#2980#2999#0" />
+            <element signature="e#3013#3019#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

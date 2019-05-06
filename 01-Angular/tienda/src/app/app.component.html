@@ -1,0 +1,53 @@
+<app-contenedor-superior></app-contenedor-superior>
+<div></div>
+<div class="contenedor-siguiente">
+
+  <div class="row">
+    <div class="col-lg-8 row-izquierda">
+      <div class="row row-izquierda-superior">
+
+        <app-item-menu
+        *ngFor="let item of listaItemMenuSuperior"
+        [itemMenuNombre]="item"
+        ></app-item-menu>
+      </div>
+
+      <div class="row">
+
+        <app-contenedor-producto
+          *ngFor="let producto of listaProductos"
+          [imagen] = "producto.imagen"
+          [productoNumero] = "producto.productoNumero"
+          [productoNombre] = "producto.productoNombre"
+        >
+        </app-contenedor-producto>
+
+      </div>
+
+    </div>
+    <div class="col-lg-4 contenedor-derecha">
+
+      <div class="texto-normal">
+        <b>BONS IN YOUR BOX BOX BOX</b>
+      </div>
+      <div class="texto-normal">
+        <b>Bon-jour!</b> Welcome to Bon Bon Bon’s Box Box Box Builder! We believe that you should build the box around a person, and not put a person in a box. Maybe that sounds a little silly, but we’re pretty serious about it!
+      </div>
+      <div class="texto-normal">
+        What we mean is, as you build the box, it will keep getting longer…up to 32 pieces. They’re $3 each, by the way. To get started, add any Bon from the left.
+      </div>
+      <div class="texto-cambiante">
+        +add one random bon!
+      </div>
+      <div class="texto-cambiante">
+        pricepoint in mind
+      </div>
+      <div class="costo">
+        <span> costo: </span> <span class="flotante-derecha"> $0.0</span>
+      </div>
+      <button class="btn-revisar">Review your order</button>
+
+    </div>
+  </div>
+
+</div>
