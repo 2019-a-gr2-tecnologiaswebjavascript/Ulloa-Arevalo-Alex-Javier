@@ -1,0 +1,22 @@
+<div class="contenedor-producto">
+  <div class="producto-superior">
+    <p class="ver-detalles">
+      view details
+    </p>
+    <img [src]="imagen" [alt]="productoNombre" class="imagen-producto">
+  </div>
+  <div class="producto-inferior">
+    <p class="producto-numero">
+      {{ productoNumero }}
+    </p>
+    <p class="producto-nombre">
+      {{ productoNombre }}
+    </p>
+
+    <button type="button" class="btn-agregar">
+      Agregar al carrito!
+    </button>
+
+
+  </div>
+</div>

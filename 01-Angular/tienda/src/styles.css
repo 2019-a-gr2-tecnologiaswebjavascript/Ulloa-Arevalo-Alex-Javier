@@ -1,0 +1,170 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+  margin: 0;
+  padding: 0;
+}
+.contenedor-superior {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-image: url("assets/imagenes/background-top.jpg");
+  background-repeat: repeat;
+  background-color: #f2f2f2;
+  top: 0;
+  left: 0;
+  display: block;
+}
+.item-menu {
+  color: #0c5460;
+  font-size: 1em;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-left: 10px;
+  float: left;
+  text-transform: uppercase;
+}
+.item-menu-diferente {
+  color: #0c5460;
+  font-size: 1em;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-left: 15px;
+  float: left;
+  text-transform: uppercase;
+}
+.item-menu-diferente:hover {
+  color: darkorange;
+  cursor: pointer;
+
+}
+.item-menu-diferente-izquierda {
+  font-size: 1.5em;
+}
+.contenedor-siguiente {
+  background-color: #0cd1e8;
+}
+.row-izquierda {
+  background-image: url("assets/imagenes/background.webp");
+}
+.item-menu:hover {
+  cursor: pointer;
+}
+.contenedor-producto {
+  margin: 10px;
+  padding: 2px;
+  margin-left: 20px;
+  max-width: 15em;
+}
+.producto-superior {
+  background-color: #fbf1f0;
+  color: black;
+  text-transform: uppercase;
+  margin-bottom: 1em;
+  padding-bottom: 1em;
+  padding-left: 0.5em;
+}
+.producto-inferior {
+  margin-top: -1em;
+  padding-top: 0.05em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  background-color: white;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+.imagen-producto {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.imagen-producto:hover {
+  -webkit-transform:rotate(25deg);
+  -moz-transform: rotate(25deg);
+  -ms-transform: rotate(25deg);
+  -o-transform: rotate(25deg);
+  transform: rotate(25deg);
+  cursor: pointer;
+}
+.btn-agregar {
+ border: none;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: transparent;
+  text-transform: uppercase;
+}
+.btn-agregar:before {
+  content: url("assets/iconos/ios-add-circle-outline.svg");
+  width: 20px;
+  float: left;
+  margin-right: 5px;
+  margin-top: -2px;
+}
+.btn-agregar:hover {
+  color: #7e57ff;
+  fill: #7e57ff;
+}
+.ver-detalles {
+  margin-top: 1em;
+  padding-top: 1em;
+}
+.ver-detalles:hover {
+  color: coral;
+  cursor: pointer;
+}
+.producto-numero {
+  font-weight: normal;
+  letter-spacing: 0.2em;
+  font-size: 0.7em;
+}
+.row-izquierda-superior{
+  background: white;
+  padding-left: 1em;
+
+}
+.contenedor-derecha {
+  background-image: url("/assets/imagenes/bg-right.jpg");
+  background-repeat: repeat;
+  padding: 1em;
+  margin: 0px;
+}
+.texto-cambiante {
+  color: white;
+  margin-top: 1em;
+  font-size: 16px;
+  font-family: Futura-Book, sans-serif;
+}
+.texto-cambiante:hover {
+  color: black;
+  cursor: pointer;
+}
+.texto-normal {
+  color: white;
+  font-size: 16px;
+  font-family: Futura-Book, sans-serif;
+  line-height: 22px;
+  margin-top: 1em;
+  margin-right: 1em;
+}
+.costo {
+  background: white;
+  color: black;
+  margin: 1em;
+  padding: 1em;
+  font-size: 20px;
+  font-family: Futura-Bold, sans-serif;
+}
+.flotante-derecha {
+  float: right;
+}
+.btn-revisar {
+  background-color: #E35737;
+  color: white;
+  margin: 1em;
+  padding: 1em;
+  opacity: 0.75;
+  text-align: center;
+  text-transform: uppercase;
+}
