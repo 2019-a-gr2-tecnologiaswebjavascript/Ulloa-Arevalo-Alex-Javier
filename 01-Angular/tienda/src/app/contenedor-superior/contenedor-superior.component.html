@@ -1,0 +1,33 @@
+<div class="contenedor-superior">
+  <div class="row">
+    <div class="col-md-3">
+      <div class="item-menu-diferente item-menu-diferente-izquierda">
+        BON BON BON
+      </div>
+
+    </div>
+    <div class="col-md-6">
+      <div class="item-menu-diferente">
+        BUILD A BOX
+      </div>
+      <div class="item-menu-diferente">
+        CHOCOLATE
+      </div>
+      <div class="item-menu-diferente">
+        BON STUFF
+      </div>
+      <div class="item-menu-diferente">
+        SPECIAL ORDERS
+      </div>
+
+    </div>
+    <div class="col-md-3">
+
+      <app-item-menu
+        *ngFor="let item of listaItemsDerecha"
+        [itemMenuNombre]="item"
+      ></app-item-menu>
+
+    </div>
+  </div>
+</div>
