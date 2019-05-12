@@ -1,15 +1,15 @@
-<div class="contenedor-producto">
+<div class="contenedor-producto container">
   <div class="producto-superior">
     <p class="ver-detalles">
       view details
     </p>
-    <img [src]="imagen" [alt]="productoNombre" class="imagen-producto">
+    <img [src]="imagen" [alt]="productoNombre" class="imagen-producto img-fluid">
   </div>
   <div class="producto-inferior">
     <p class="producto-numero">
       {{ productoNumero }}
     </p>
-    <p class="producto-nombre">
+    <p class="producto-nombre text-truncate">
       {{ productoNombre }}
     </p>
 

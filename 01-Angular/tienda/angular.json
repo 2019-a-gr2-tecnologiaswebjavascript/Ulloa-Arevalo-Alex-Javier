@@ -24,7 +24,7 @@
             ],
             "styles": [
               "node_modules/ionicons/dist/scss/ionicons.scss",
-              "src/assets/bootstrap/css/bootstrap-grid.css",
+              "src/assets/bootstrap/css/bootstrap.css",
               "src/styles.css"
             ],
             "scripts": [],

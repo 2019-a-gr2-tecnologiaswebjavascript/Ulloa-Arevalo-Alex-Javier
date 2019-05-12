@@ -19,7 +19,7 @@ export class AppComponent {
       productoNumero: '#2'
     },
     {
-      imagen: '../assets/imagenes/producto3.webp',
+      imagen: '../assets/imagenes/producto2.webp',
       productoNombre: 'mustachio',
       productoNumero: '#3'
     },
