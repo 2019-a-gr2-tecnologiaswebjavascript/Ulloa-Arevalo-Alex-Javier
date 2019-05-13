@@ -1,7 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
-body {
+body, html {
   margin: 0;
   padding: 0;
+  height: 100%;
 }
 .contenedor-superior {
   width: 100%;
@@ -46,6 +47,7 @@ body {
 .contenedor-siguiente {
   background-color: #0cd1e8;
   font-family: Futura-Bold;
+  height: 100%;
 }
 .row-izquierda {
   background-image: url("assets/imagenes/background.webp");
@@ -115,7 +117,7 @@ body {
   padding-top: 1em;
   transition: color .3s;
   transition-property: color;
-  transition-duration: 0.3s;
+  transition-duration: 3s;
   transition-timing-function: ease;
   transition-delay: 0s;
 }

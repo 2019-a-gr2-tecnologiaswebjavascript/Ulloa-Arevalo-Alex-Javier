@@ -9,12 +9,11 @@ import { RutaProductosComponent } from './rutas/ruta-productos/ruta-productos.co
 import { RutaNoEncontradaComponent } from './rutas/ruta-no-encontrada/ruta-no-encontrada.component';
 import { RutaProductosHogarComponent } from './rutas/ruta-productos-hogar/ruta-productos-hogar.component';
 import { RutaProductosVideojuegosComponent } from './rutas/ruta-productos-videojuegos/ruta-productos-videojuegos.component';
-import { RutaShooterComponent } from './rutas/ruta-shooter/ruta-shooter.component';
-import { RutaRpgComponent } from './rutas/ruta-rpg/ruta-rpg.component';
-import { RutaMobaComponent } from './rutas/ruta-moba/ruta-moba.component';
 import { RutaProductoVideojuegoShooterComponent } from './rutas/ruta-producto-videojuego-shooter/ruta-producto-videojuego-shooter.component';
 import { RutaProductoVideojuegoMobaComponent } from './rutas/ruta-producto-videojuego-moba/ruta-producto-videojuego-moba.component';
 import { RutaProductoVideojuegoRpgComponent } from './rutas/ruta-producto-videojuego-rpg/ruta-producto-videojuego-rpg.component';
+import { EstaLogeadoService } from './servicios/guards/esta-logeado.service';
+import { AuthService } from './servicios/auth/auth.service';
 
 @NgModule({
   declarations: [
@@ -25,9 +24,6 @@ import { RutaProductoVideojuegoRpgComponent } from './rutas/ruta-producto-videoj
     RutaNoEncontradaComponent,
     RutaProductosHogarComponent,
     RutaProductosVideojuegosComponent,
-    RutaShooterComponent,
-    RutaRpgComponent,
-    RutaMobaComponent,
     RutaProductoVideojuegoShooterComponent,
     RutaProductoVideojuegoMobaComponent,
     RutaProductoVideojuegoRpgComponent
@@ -36,7 +32,10 @@ import { RutaProductoVideojuegoRpgComponent } from './rutas/ruta-producto-videoj
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [
+    EstaLogeadoService,
+    AuthService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
