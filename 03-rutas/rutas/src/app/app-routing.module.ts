@@ -9,6 +9,7 @@ import { RutaProductosVideojuegosComponent } from './rutas/ruta-productos-videoj
 import { RutaProductoVideojuegoShooterComponent } from './rutas/ruta-producto-videojuego-shooter/ruta-producto-videojuego-shooter.component';
 import { RutaProductoVideojuegoMobaComponent } from './rutas/ruta-producto-videojuego-moba/ruta-producto-videojuego-moba.component';
 import { RutaProductoVideojuegoRpgComponent } from './rutas/ruta-producto-videojuego-rpg/ruta-producto-videojuego-rpg.component';
+import { EstaLogeadoService } from './servicios/guards/esta-logeado.service';
 
 const routes: Routes = [
   {
@@ -17,7 +18,10 @@ const routes: Routes = [
   },
   {
     path: 'creditos/:idCredito/:tasaReferencia',
-    component: RutaCreditosComponent
+    component: RutaCreditosComponent,
+    canActivate: [
+      EstaLogeadoService
+    ]
   },
   {
     path: 'productos',
