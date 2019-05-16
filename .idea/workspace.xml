@@ -3,35 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a6e042c1-ad6a-4634-89bf-2dc70f5326fd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-Angular/tienda/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/01-Angular/tienda/angular.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-Angular/tienda/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/01-Angular/tienda/src/app/app.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-Angular/tienda/src/app/contenedor-producto/contenedor-producto.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/01-Angular/tienda/src/app/contenedor-producto/contenedor-producto.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-Angular/tienda/src/app/contenedor-superior/contenedor-superior.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/01-Angular/tienda/src/app/contenedor-superior/contenedor-superior.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-Angular/tienda/src/assets/fonts/Futura Bold Italic font.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-Angular/tienda/src/assets/fonts/Futura Bold font.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-Angular/tienda/src/assets/fonts/Futura Book Italic font.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-Angular/tienda/src/assets/fonts/Futura Book font.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-Angular/tienda/src/assets/fonts/Futura Extra Black font.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-Angular/tienda/src/assets/fonts/Futura Heavy Italic font.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-Angular/tienda/src/assets/fonts/Futura Heavy font.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-Angular/tienda/src/assets/fonts/Futura Light Italic font.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-Angular/tienda/src/assets/fonts/Futura Light font.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-Angular/tienda/src/assets/fonts/Futura Medium Italic font.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-Angular/tienda/src/assets/fonts/Futura XBlk BT.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-Angular/tienda/src/assets/fonts/Futura-CondensedLight.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-Angular/tienda/src/assets/fonts/futur.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-Angular/tienda/src/assets/fonts/futura light bt.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-Angular/tienda/src/assets/fonts/futura medium bt.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-Angular/tienda/src/assets/fonts/futura medium condensed bt.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-Angular/tienda/src/assets/fonts/sharefonts.net.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-Angular/tienda/src/assets/fonts/tt0205m_.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-Angular/tienda/src/assets/fonts/unicode.futurab.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-Angular/tienda/src/assets/fonts/unicode.futurabb.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-Angular/tienda/src/assets/imagenes/bg-right.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/01-Angular/tienda/src/assets/imagenes/bg-right.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-Angular/tienda/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/01-Angular/tienda/src/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02-ionic/tinderpoli/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/02-ionic/tinderpoli/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02-ionic/tinderpoli/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/02-ionic/tinderpoli/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02-ionic/tinderpoli/src/app/tab1/tab1.page.html" beforeDir="false" afterPath="$PROJECT_DIR$/02-ionic/tinderpoli/src/app/tab1/tab1.page.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -44,64 +15,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/01-Angular/tienda/src/app/contenedor-superior/contenedor-superior.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
-              <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
-              <folding>
-                <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" />
-                <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" />
-                <element signature="n#app-item-menu#0;n#div#2;n#div#0;n#div#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/01-Angular/tienda/src/styles.css">
+        <entry file="file://$PROJECT_DIR$/02-ionic/go-uio/go-uio/src/app/tab1/tab1.page.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="213" lean-forward="true" selection-start-line="213" selection-end-line="213" />
+            <state relative-caret-position="105">
+              <caret line="82" column="49" selection-start-line="82" selection-start-column="49" selection-end-line="82" selection-end-column="49" />
               <folding>
-                <element signature="e#85#115#0" />
-                <element signature="e#137#342#0" />
-                <element signature="e#354#501#0" />
-                <element signature="e#698#742#0" />
-                <element signature="e#774#797#0" />
-                <element signature="e#820#852#0" />
-                <element signature="e#868#931#0" />
-                <element signature="e#949#971#0" />
-                <element signature="e#1088#1233#0" />
-                <element signature="e#1253#1443#0" />
-                <element signature="e#1461#1539#0" />
-                <element signature="e#1563#1744#0" />
-                <element signature="e#2245#2316#0" />
-                <element signature="e#2546#2643#0" />
-                <element signature="e#2667#2705#0" />
-                <element signature="e#2889#3019#0" />
-                <element signature="e#3038#3057#0" />
-                <element signature="e#3071#3218#0" />
-                <element signature="e#3128#3134#0" />
+                <element signature="n#ion-header#0;n#!!top" />
+                <element signature="n#ion-card#0;n#ion-content#0;n#!!top" />
+                <element signature="n#ion-list#0;n#ion-content#0;n#!!top" />
+                <element signature="e#1720#2300#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/01-Angular/tienda/src/app/app.component.ts">
+        <entry file="file://$PROJECT_DIR$/02-ionic/go-uio/go-uio/src/app/tab1/tab1.page.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="21" column="43" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
+            <state relative-caret-position="168">
+              <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/01-Angular/tienda/angular.json">
+        <entry file="file://$PROJECT_DIR$/02-ionic/go-uio/go-uio/src/app/tab1/tab1.page.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="26" column="49" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
+            <state relative-caret-position="222">
+              <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -141,13 +83,16 @@
         <option value="$PROJECT_DIR$/01-Angular/tienda/src/app/item-menu/item-menu.component.html" />
         <option value="$PROJECT_DIR$/01-Angular/tienda/src/app/item-menu/item-menu.component.ts" />
         <option value="$PROJECT_DIR$/01-Angular/tienda/src/app/contenedor-superior/contenedor-superior.component.ts" />
-        <option value="$PROJECT_DIR$/02-ionic/tinderpoli/src/app/tab1/tab1.page.html" />
         <option value="$PROJECT_DIR$/01-Angular/tienda/src/app/app.component.html" />
         <option value="$PROJECT_DIR$/01-Angular/tienda/src/app/app.component.ts" />
         <option value="$PROJECT_DIR$/01-Angular/tienda/angular.json" />
         <option value="$PROJECT_DIR$/01-Angular/tienda/src/app/contenedor-producto/contenedor-producto.component.html" />
         <option value="$PROJECT_DIR$/01-Angular/tienda/src/app/contenedor-superior/contenedor-superior.component.html" />
         <option value="$PROJECT_DIR$/01-Angular/tienda/src/styles.css" />
+        <option value="$PROJECT_DIR$/02-ionic/tinderpoli/src/app/tab1/tab1.page.html" />
+        <option value="$PROJECT_DIR$/02-ionic/go-uio/go-uio/src/app/tab1/tab1.page.ts" />
+        <option value="$PROJECT_DIR$/02-ionic/go-uio/go-uio/src/app/tab1/tab1.page.scss" />
+        <option value="$PROJECT_DIR$/02-ionic/go-uio/go-uio/src/app/tab1/tab1.page.html" />
       </list>
     </option>
   </component>
@@ -171,37 +116,83 @@
             <path>
               <item name="Ulloa-Arevalo-Alex-Javier" type="b2602c69:ProjectViewProjectNode" />
               <item name="Ulloa-Arevalo-Alex-Javier" type="462c0819:PsiDirectoryNode" />
-              <item name="01-Angular" type="462c0819:PsiDirectoryNode" />
+              <item name="02-ionic" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Ulloa-Arevalo-Alex-Javier" type="b2602c69:ProjectViewProjectNode" />
               <item name="Ulloa-Arevalo-Alex-Javier" type="462c0819:PsiDirectoryNode" />
-              <item name="01-Angular" type="462c0819:PsiDirectoryNode" />
-              <item name="tienda" type="462c0819:PsiDirectoryNode" />
+              <item name="02-ionic" type="462c0819:PsiDirectoryNode" />
+              <item name="go-uio" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Ulloa-Arevalo-Alex-Javier" type="b2602c69:ProjectViewProjectNode" />
               <item name="Ulloa-Arevalo-Alex-Javier" type="462c0819:PsiDirectoryNode" />
-              <item name="01-Angular" type="462c0819:PsiDirectoryNode" />
-              <item name="tienda" type="462c0819:PsiDirectoryNode" />
+              <item name="02-ionic" type="462c0819:PsiDirectoryNode" />
+              <item name="go-uio" type="462c0819:PsiDirectoryNode" />
+              <item name="go-uio" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Ulloa-Arevalo-Alex-Javier" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Ulloa-Arevalo-Alex-Javier" type="462c0819:PsiDirectoryNode" />
+              <item name="02-ionic" type="462c0819:PsiDirectoryNode" />
+              <item name="go-uio" type="462c0819:PsiDirectoryNode" />
+              <item name="go-uio" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Ulloa-Arevalo-Alex-Javier" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Ulloa-Arevalo-Alex-Javier" type="462c0819:PsiDirectoryNode" />
+              <item name="02-ionic" type="462c0819:PsiDirectoryNode" />
+              <item name="go-uio" type="462c0819:PsiDirectoryNode" />
+              <item name="go-uio" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="@angular" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Ulloa-Arevalo-Alex-Javier" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Ulloa-Arevalo-Alex-Javier" type="462c0819:PsiDirectoryNode" />
+              <item name="02-ionic" type="462c0819:PsiDirectoryNode" />
+              <item name="go-uio" type="462c0819:PsiDirectoryNode" />
+              <item name="go-uio" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="@angular" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Ulloa-Arevalo-Alex-Javier" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Ulloa-Arevalo-Alex-Javier" type="462c0819:PsiDirectoryNode" />
+              <item name="02-ionic" type="462c0819:PsiDirectoryNode" />
+              <item name="go-uio" type="462c0819:PsiDirectoryNode" />
+              <item name="go-uio" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="@angular" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Ulloa-Arevalo-Alex-Javier" type="b2602c69:ProjectViewProjectNode" />
               <item name="Ulloa-Arevalo-Alex-Javier" type="462c0819:PsiDirectoryNode" />
-              <item name="01-Angular" type="462c0819:PsiDirectoryNode" />
-              <item name="tienda" type="462c0819:PsiDirectoryNode" />
+              <item name="02-ionic" type="462c0819:PsiDirectoryNode" />
+              <item name="go-uio" type="462c0819:PsiDirectoryNode" />
+              <item name="go-uio" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="@angular" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="directives" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Ulloa-Arevalo-Alex-Javier" type="b2602c69:ProjectViewProjectNode" />
               <item name="Ulloa-Arevalo-Alex-Javier" type="462c0819:PsiDirectoryNode" />
-              <item name="01-Angular" type="462c0819:PsiDirectoryNode" />
-              <item name="tienda" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="contenedor-superior" type="462c0819:PsiDirectoryNode" />
+              <item name="02-ionic" type="462c0819:PsiDirectoryNode" />
+              <item name="tinderpoli" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Ulloa-Arevalo-Alex-Javier" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Ulloa-Arevalo-Alex-Javier" type="462c0819:PsiDirectoryNode" />
+              <item name="02-ionic" type="462c0819:PsiDirectoryNode" />
+              <item name="tinderpoli" type="462c0819:PsiDirectoryNode" />
+              <item name="e2e" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -221,6 +212,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="C:\Users\ajua_\OneDrive\Documents\GitHub\Ulloa-Arevalo-Alex-Javier\01-Angular\tienda\node_modules\typescript\lib" />
   </component>
   <component name="RunDashboard">
@@ -249,12 +241,13 @@
       <workItem from="1557010456886" duration="13702000" />
       <workItem from="1557078057098" duration="10234000" />
       <workItem from="1557176440257" duration="4697000" />
-      <workItem from="1557667781837" duration="10437000" />
+      <workItem from="1557667781837" duration="11048000" />
+      <workItem from="1557975541333" duration="10644000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44112000" />
+    <option name="totallyTimeSpent" value="55367000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -269,7 +262,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.070059486" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16259088" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="TypeScript" order="0" />
@@ -282,7 +275,7 @@
       <window_info anchor="bottom" id="TODO" order="7" weight="0.32941177" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.16911764" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.36764705" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -398,32 +391,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/02-ionic/tinderpoli/src/app/tab1/tab1.page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
-          <folding>
-            <element signature="n#ion-header#0;n#!!top" />
-            <element signature="n#ion-content#0;n#!!top" />
-            <element signature="e#730#2236#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01-Angular/tienda/angular.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="26" column="49" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01-Angular/tienda/src/app/app.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="21" column="43" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/01-Angular/tienda/src/app/contenedor-producto/contenedor-producto.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -450,30 +417,72 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/01-Angular/tienda/src/app/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="21" column="43" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/01-Angular/tienda/src/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="213" lean-forward="true" selection-start-line="213" selection-end-line="213" />
+        <state relative-caret-position="239">
+          <caret line="214" selection-start-line="214" selection-end-line="214" />
           <folding>
             <element signature="e#85#115#0" />
-            <element signature="e#137#342#0" />
-            <element signature="e#354#501#0" />
-            <element signature="e#698#742#0" />
-            <element signature="e#774#797#0" />
-            <element signature="e#820#852#0" />
-            <element signature="e#868#931#0" />
-            <element signature="e#949#971#0" />
-            <element signature="e#1088#1233#0" />
-            <element signature="e#1253#1443#0" />
-            <element signature="e#1461#1539#0" />
-            <element signature="e#1563#1744#0" />
-            <element signature="e#2245#2316#0" />
-            <element signature="e#2546#2643#0" />
-            <element signature="e#2667#2705#0" />
-            <element signature="e#2889#3019#0" />
-            <element signature="e#3038#3057#0" />
-            <element signature="e#3071#3218#0" />
-            <element signature="e#3128#3134#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01-Angular/tienda/angular.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="26" column="49" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-ionic/tinderpoli/src/app/tab1/tab1.page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="138" column="16" lean-forward="true" selection-start-line="138" selection-start-column="16" selection-end-line="138" selection-end-column="16" />
+          <folding>
+            <element signature="n#ion-header#0;n#!!top" />
+            <element signature="n#ion-content#0;n#!!top" />
+            <element signature="e#730#2236#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-ionic/go-uio/go-uio/node_modules/@angular/common/src/directives/ng_for_of.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-ionic/go-uio/go-uio/src/app/tab1/tab1.page.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-ionic/go-uio/go-uio/src/app/tab1/tab1.page.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-ionic/go-uio/go-uio/src/app/tab1/tab1.page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="82" column="49" selection-start-line="82" selection-start-column="49" selection-end-line="82" selection-end-column="49" />
+          <folding>
+            <element signature="n#ion-header#0;n#!!top" />
+            <element signature="n#ion-card#0;n#ion-content#0;n#!!top" />
+            <element signature="n#ion-list#0;n#ion-content#0;n#!!top" />
+            <element signature="e#1720#2300#0" />
           </folding>
         </state>
       </provider>
