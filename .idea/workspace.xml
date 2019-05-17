@@ -3,6 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="a6e042c1-ad6a-4634-89bf-2dc70f5326fd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-ionic/go-uio/go-uio/src/app/tab1/tab1.page.html" beforeDir="false" afterPath="$PROJECT_DIR$/02-ionic/go-uio/go-uio/src/app/tab1/tab1.page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-ionic/go-uio/go-uio/src/app/tab2/tab2.page.html" beforeDir="false" afterPath="$PROJECT_DIR$/02-ionic/go-uio/go-uio/src/app/tab2/tab2.page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-ionic/go-uio/go-uio/src/app/tab2/tab2.page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/02-ionic/go-uio/go-uio/src/app/tab2/tab2.page.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-ionic/go-uio/go-uio/src/app/tab2/tab2.page.ts" beforeDir="false" afterPath="$PROJECT_DIR$/02-ionic/go-uio/go-uio/src/app/tab2/tab2.page.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-ionic/go-uio/go-uio/src/app/tab3/tab3.page.html" beforeDir="false" afterPath="$PROJECT_DIR$/02-ionic/go-uio/go-uio/src/app/tab3/tab3.page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-ionic/go-uio/go-uio/src/app/tab3/tab3.page.ts" beforeDir="false" afterPath="$PROJECT_DIR$/02-ionic/go-uio/go-uio/src/app/tab3/tab3.page.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-ionic/go-uio/go-uio/src/app/tabs/tabs.page.html" beforeDir="false" afterPath="$PROJECT_DIR$/02-ionic/go-uio/go-uio/src/app/tabs/tabs.page.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -14,36 +21,21 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/02-ionic/go-uio/go-uio/src/app/tab1/tab1.page.html">
+        <entry file="file://$PROJECT_DIR$/02-ionic/go-uio/go-uio/src/app/tab3/tab3.page.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="82" column="49" selection-start-line="82" selection-start-column="49" selection-end-line="82" selection-end-column="49" />
-              <folding>
-                <element signature="n#ion-header#0;n#!!top" />
-                <element signature="n#ion-card#0;n#ion-content#0;n#!!top" />
-                <element signature="n#ion-list#0;n#ion-content#0;n#!!top" />
-                <element signature="e#1720#2300#0" />
-              </folding>
+            <state relative-caret-position="336">
+              <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/02-ionic/go-uio/go-uio/src/app/tab1/tab1.page.ts">
+        <entry file="file://$PROJECT_DIR$/02-ionic/go-uio/go-uio/src/app/tab3/tab3.page.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/02-ionic/go-uio/go-uio/src/app/tab1/tab1.page.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+            <state relative-caret-position="284">
+              <caret line="18" column="77" selection-start-line="18" selection-start-column="77" selection-end-line="18" selection-end-column="77" />
             </state>
           </provider>
         </entry>
@@ -93,6 +85,13 @@
         <option value="$PROJECT_DIR$/02-ionic/go-uio/go-uio/src/app/tab1/tab1.page.ts" />
         <option value="$PROJECT_DIR$/02-ionic/go-uio/go-uio/src/app/tab1/tab1.page.scss" />
         <option value="$PROJECT_DIR$/02-ionic/go-uio/go-uio/src/app/tab1/tab1.page.html" />
+        <option value="$PROJECT_DIR$/02-ionic/go-uio/go-uio/src/app/tabs/tabs.page.html" />
+        <option value="$PROJECT_DIR$/02-ionic/go-uio/go-uio/src/app/tabs/tabs.page.ts" />
+        <option value="$PROJECT_DIR$/02-ionic/go-uio/go-uio/src/app/tab2/tab2.page.scss" />
+        <option value="$PROJECT_DIR$/02-ionic/go-uio/go-uio/src/app/tab2/tab2.page.ts" />
+        <option value="$PROJECT_DIR$/02-ionic/go-uio/go-uio/src/app/tab2/tab2.page.html" />
+        <option value="$PROJECT_DIR$/02-ionic/go-uio/go-uio/src/app/tab3/tab3.page.ts" />
+        <option value="$PROJECT_DIR$/02-ionic/go-uio/go-uio/src/app/tab3/tab3.page.html" />
       </list>
     </option>
   </component>
@@ -137,36 +136,6 @@
               <item name="02-ionic" type="462c0819:PsiDirectoryNode" />
               <item name="go-uio" type="462c0819:PsiDirectoryNode" />
               <item name="go-uio" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Ulloa-Arevalo-Alex-Javier" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Ulloa-Arevalo-Alex-Javier" type="462c0819:PsiDirectoryNode" />
-              <item name="02-ionic" type="462c0819:PsiDirectoryNode" />
-              <item name="go-uio" type="462c0819:PsiDirectoryNode" />
-              <item name="go-uio" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="@angular" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Ulloa-Arevalo-Alex-Javier" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Ulloa-Arevalo-Alex-Javier" type="462c0819:PsiDirectoryNode" />
-              <item name="02-ionic" type="462c0819:PsiDirectoryNode" />
-              <item name="go-uio" type="462c0819:PsiDirectoryNode" />
-              <item name="go-uio" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="@angular" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Ulloa-Arevalo-Alex-Javier" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Ulloa-Arevalo-Alex-Javier" type="462c0819:PsiDirectoryNode" />
-              <item name="02-ionic" type="462c0819:PsiDirectoryNode" />
-              <item name="go-uio" type="462c0819:PsiDirectoryNode" />
-              <item name="go-uio" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="@angular" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -175,11 +144,28 @@
               <item name="02-ionic" type="462c0819:PsiDirectoryNode" />
               <item name="go-uio" type="462c0819:PsiDirectoryNode" />
               <item name="go-uio" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="@angular" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="directives" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Ulloa-Arevalo-Alex-Javier" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Ulloa-Arevalo-Alex-Javier" type="462c0819:PsiDirectoryNode" />
+              <item name="02-ionic" type="462c0819:PsiDirectoryNode" />
+              <item name="go-uio" type="462c0819:PsiDirectoryNode" />
+              <item name="go-uio" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="tab2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Ulloa-Arevalo-Alex-Javier" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Ulloa-Arevalo-Alex-Javier" type="462c0819:PsiDirectoryNode" />
+              <item name="02-ionic" type="462c0819:PsiDirectoryNode" />
+              <item name="go-uio" type="462c0819:PsiDirectoryNode" />
+              <item name="go-uio" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="tab3" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Ulloa-Arevalo-Alex-Javier" type="b2602c69:ProjectViewProjectNode" />
@@ -213,7 +199,8 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="ts.external.directory.path" value="C:\Users\ajua_\OneDrive\Documents\GitHub\Ulloa-Arevalo-Alex-Javier\01-Angular\tienda\node_modules\typescript\lib" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="ts.external.directory.path" value="C:\Users\ajua_\OneDrive\Documents\GitHub\Ulloa-Arevalo-Alex-Javier\02-ionic\go-uio\go-uio\node_modules\typescript\lib" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -243,11 +230,14 @@
       <workItem from="1557176440257" duration="4697000" />
       <workItem from="1557667781837" duration="11048000" />
       <workItem from="1557975541333" duration="10644000" />
+      <workItem from="1558059726815" duration="7962000" />
+      <workItem from="1558067744286" duration="1775000" />
+      <workItem from="1558069548296" duration="633000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55367000" />
+    <option name="totallyTimeSpent" value="65737000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -262,7 +252,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16259088" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20885658" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="TypeScript" order="0" />
@@ -275,7 +265,7 @@
       <window_info anchor="bottom" id="TODO" order="7" weight="0.32941177" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.36764705" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32010582" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -460,30 +450,117 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/02-ionic/go-uio/go-uio/src/app/tab1/tab1.page.scss">
+    <entry file="file://$PROJECT_DIR$/02-ionic/go-uio/go-uio/src/app/tab1/tab1.page.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        <state relative-caret-position="240">
+          <caret line="46" lean-forward="true" selection-start-line="9" selection-end-line="46" />
+          <folding>
+            <element signature="e#191#1841#0" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/02-ionic/go-uio/go-uio/src/app/tab1/tab1.page.ts">
+    <entry file="file://$PROJECT_DIR$/02-ionic/go-uio/go-uio/src/app/tab1/tab1.page.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-ionic/go-uio/go-uio/src/app/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="2" lean-forward="true" selection-start-line="9" selection-start-column="2" selection-end-line="10" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-ionic/go-uio/go-uio/src/app/app-routing.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="11" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-ionic/go-uio/go-uio/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-ionic/go-uio/go-uio/src/app/app.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-ionic/go-uio/go-uio/src/app/tabs/tabs.page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-ionic/go-uio/go-uio/src/app/tabs/tabs.page.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
-          <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-ionic/go-uio/go-uio/src/app/tab2/tab2.page.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/02-ionic/go-uio/go-uio/src/app/tab1/tab1.page.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="82" column="49" selection-start-line="82" selection-start-column="49" selection-end-line="82" selection-end-column="49" />
+        <state relative-caret-position="24">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-ionic/go-uio/go-uio/src/app/tab2/tab2.page.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-ionic/go-uio/go-uio/src/app/tab2/tab2.page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="99" column="100" lean-forward="true" selection-start-line="99" selection-start-column="38" selection-end-line="99" selection-end-column="100" />
           <folding>
             <element signature="n#ion-header#0;n#!!top" />
-            <element signature="n#ion-card#0;n#ion-content#0;n#!!top" />
-            <element signature="n#ion-list#0;n#ion-content#0;n#!!top" />
-            <element signature="e#1720#2300#0" />
+            <element signature="n#ion-toolbar#0;n#ion-header#0;n#!!top" />
+            <element signature="n#ion-item-divider#0;n#ion-item-group#0;n#ion-content#0;n#!!top" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-ionic/go-uio/go-uio/src/app/tab3/tab3.page.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="18" column="77" selection-start-line="18" selection-start-column="77" selection-end-line="18" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-ionic/go-uio/go-uio/src/app/tab3/tab3.page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
         </state>
       </provider>
     </entry>

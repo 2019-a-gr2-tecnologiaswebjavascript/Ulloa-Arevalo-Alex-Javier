@@ -1,9 +1,151 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-title>
-      Tab Two
-    </ion-title>
-  </ion-toolbar>
+    <ion-toolbar>
+
+        <ion-buttons slot="primary">
+            <ion-button>Edit</ion-button>
+        </ion-buttons>
+        <ion-buttons slot="secondary">
+            <ion-button>Today</ion-button>
+        </ion-buttons>
+        <ion-title>
+            {{month}}
+        </ion-title>
+    </ion-toolbar>
 </ion-header>
 
-<ion-content></ion-content>
+<ion-content>
+
+    <ion-item-group>
+        <ion-item-divider>
+            Teams
+        </ion-item-divider>
+        <ion-item>
+            <ion-label>
+                There is no matches from your team this day
+            </ion-label>
+        </ion-item>
+
+
+        <ion-item-divider>
+            Competitions
+        </ion-item-divider>
+
+        <ion-grid>
+            <ion-grid>
+            <ion-row class="competition" nowrap>
+                <ion-col size="1">
+                    <ion-thumbnail>
+                        <img src="https://logodownload.org/wp-content/uploads/2018/10/copa-sulamericana-logo.png" alt="">
+                    </ion-thumbnail>
+                </ion-col>
+                <ion-col size="11">
+                    <ion-item lines="none">
+                        <ion-label> Copa Sudamericana </ion-label>
+                        <ion-icon name="arrow-forward" slot="end"></ion-icon>
+
+                    </ion-item>
+                </ion-col>
+            </ion-row>
+
+                <ion-row nowrap *ngFor="let partido of listaPartidos">
+                    <ion-col size="2">
+                        {{partido.mes}} {{partido.dia}}
+                    </ion-col>
+                    <ion-col size="1">
+                        <ion-grid>
+                            <ion-row class="marcador">
+                                <ion-col>{{partido.golesLocal}}</ion-col>
+                            </ion-row>
+                            <ion-row>
+                                <ion-col>{{partido.golesVisita}}</ion-col>
+                            </ion-row>
+                        </ion-grid>
+                    </ion-col>
+                    <ion-col size="7">
+                        <ion-grid>
+                            <ion-row>
+                                <ion-col>
+                                    {{partido.nombreLocal}}
+                                </ion-col>
+                            </ion-row>
+                            <ion-row>
+                                <ion-col>
+                                    {{partido.nombreVisita}}
+                                </ion-col>
+                            </ion-row>
+                        </ion-grid>
+                    </ion-col>
+                    <ion-col size="1">
+                        <ion-button fill="clear">
+                            <ion-icon slot="icon-only" name="more"></ion-icon>
+                        </ion-button>
+                    </ion-col>
+                </ion-row>
+            </ion-grid>
+        </ion-grid>
+
+        <ion-item-divider>
+
+            <ion-item>
+                <ion-label>All Competitions</ion-label>
+                <ion-toggle checked></ion-toggle>
+            </ion-item>
+        </ion-item-divider>
+
+        <ion-grid>
+            <ion-grid>
+                <ion-row class="competition" nowrap>
+                    <ion-col size="1">
+                        <ion-thumbnail>
+                            <img src="http://cdn.mashup-web.com/img/categories/copa-libertadores.png" alt="">
+                        </ion-thumbnail>
+                    </ion-col>
+                    <ion-col size="11">
+                        <ion-item lines="none">
+                            <ion-label> Copa Libertadores </ion-label>
+                            <ion-icon name="arrow-forward" slot="end"></ion-icon>
+
+                        </ion-item>
+                    </ion-col>
+                </ion-row>
+
+                <ion-row nowrap *ngFor="let partido of listaPartidos">
+                    <ion-col size="2">
+                        {{partido.mes}} {{partido.dia}}
+                    </ion-col>
+                    <ion-col size="1">
+                        <ion-grid>
+                            <ion-row class="marcador">
+                                <ion-col>{{partido.golesLocal}}</ion-col>
+                            </ion-row>
+                            <ion-row>
+                                <ion-col>{{partido.golesVisita}}</ion-col>
+                            </ion-row>
+                        </ion-grid>
+                    </ion-col>
+                    <ion-col size="7">
+                        <ion-grid>
+                            <ion-row>
+                                <ion-col>
+                                    {{partido.nombreLocal}}
+                                </ion-col>
+                            </ion-row>
+                            <ion-row>
+                                <ion-col>
+                                    {{partido.nombreVisita}}
+                                </ion-col>
+                            </ion-row>
+                        </ion-grid>
+                    </ion-col>
+                    <ion-col size="1">
+                        <ion-button fill="clear">
+                            <ion-icon slot="icon-only" name="more"></ion-icon>
+                        </ion-button>
+                    </ion-col>
+                </ion-row>
+            </ion-grid>
+        </ion-grid>
+
+    </ion-item-group>
+
+</ion-content>

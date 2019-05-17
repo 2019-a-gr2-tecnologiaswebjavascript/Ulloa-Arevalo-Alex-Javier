@@ -1,9 +1,26 @@
 <ion-header>
   <ion-toolbar>
     <ion-title>
-      Tab Three
+      Search
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content></ion-content>
+<ion-content>
+
+  <ion-searchbar></ion-searchbar>
+
+  <ion-label> Recent searches </ion-label>
+
+  <ion-list>
+    <ion-item *ngFor="let busqueda of listaBusquedas">
+      <ion-avatar slot="start">
+        <img [src]="busqueda.imagen" alt="">
+      </ion-avatar>
+      <ion-label> {{busqueda.nombre }}</ion-label>
+      <ion-icon name="close" slot="end"></ion-icon>
+    </ion-item>
+  </ion-list>
+
+
+</ion-content>
