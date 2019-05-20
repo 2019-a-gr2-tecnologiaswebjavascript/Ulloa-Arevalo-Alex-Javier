@@ -2,26 +2,81 @@ nombre: {{nombre}}
 <br>
 apellido: {{apellido}}
 <br>
-q: {{q}}
+q: {{cedula}}
 <br>
+
+<pre>Valido:  {{formularioUsuario.valid}} </pre>
+<pre> Invalido:  {{formularioUsuario.invalid}}  </pre>
+<pre> Dirty:  {{formularioUsuario.dirty}}  </pre>
+<pre> Pristine:  {{formularioUsuario.pristine}}  </pre>
+<pre> Touched:  {{formularioUsuario.touched}}  </pre>
+<pre> Unouched:  {{formularioUsuario.untouched}}  </pre>
+
+
 <form 
   #formularioUsuario="ngForm"
   novalidate
   (submit)="guardarUsuario(formularioUsuario)"
 >
   <label for="nombre">Nombre</label>
-  <input id="nombre" name="nombreUsuario" type="text" [(ngModel)]="nombre">
+  <input id="nombre" 
+  required 
+  minlength="3" 
+  maxlength="10"
+  name="nombreUsuario" type="text" [(ngModel)]="nombre" #vtNombre = "ngModel"  >
+ 
+  <pre> {{vtNombre.errors | json  }} </pre>
+
+
+  <pre>Valido:  {{vtNombre.valid}} </pre>
+  <pre> Invalido:  {{vtNombre.invalid}}  </pre>
+  <pre> Dirty:  {{vtNombre.dirty}}  </pre>
+  <pre> Pristine:  {{vtNombre.pristine}}  </pre>
+  <pre> Touched:  {{vtNombre.touched}}  </pre>
+  <pre> Unouched:  {{vtNombre.untouched}}  </pre>
+ 
+<p *ngIf="vtNombre.valid"> Nombre Valido </p>
+  <p *ngIf="vtNombre.invalid"> Nombre no Valido </p>
   <br>
   <label for="apellido">Apellido  </label>
-  <input id="apellido" name="apellidoUsuario" type="text" [(ngModel)]="apellido">
+  <input id="apellido" required name="apellidoUsuario" type="text" [(ngModel)]="apellido" >
   <br>
-  <label for="consulta">Consulta a google  </label>
-  <input id="consulta" name="q" type="text" [(ngModel)]="q">
+  <label for="cedula">Cedula </label>
+  <input id="cedula" 
+  minlength="10"
+  maxlength="10"
+  pattern="[0-9]*"
+  required
+  name="cedula" type="text" [(ngModel)]="cedula"  #vtCedula = "ngModel">
+
+  <div *ngIf="vtCedula.errors && vtCedula.dirty ">
+    <h1>Errores</h1>
+    <p *ngIf="vtCedula.errors.minlength" > Escriba 10 caracteres </p>
+    <p *ngIf="vtCedula.errors.pattern" > Solo se aceptan numeros </p>
+    <p *ngIf="vtCedula.errors.required" > Campo obligatorio </p>
+  </div>
+
+
   <br>
   <button type="button" >Tipo Boton</button>
   <br>
   <button type="reset">Tipo Reset</button>
   <br>
-  <button type="submit">Tipo submit</button>
+  <button type="submit" [disabled]= "formularioUsuario.invalid">Tipo submit</button>
+
+
 
 </form>
+
+<!--
+
+  Errores en forms:
+  required
+  minlength
+  maxlength
+
+  min y max para numero
+
+  pattern RegEx
+
+-->
