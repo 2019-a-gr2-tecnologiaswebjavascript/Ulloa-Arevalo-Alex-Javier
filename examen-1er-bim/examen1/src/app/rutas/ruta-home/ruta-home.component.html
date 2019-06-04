@@ -1,0 +1,25 @@
+<h1>
+  Bienvenido a mi examen del primer bimestre.
+</h1>
+<br>
+<br>
+<form #formulario="ngForm"
+      novalidate
+      (submit)="guardarUsuario(formulario)"
+>
+
+  <label for="nombre">Nombre</label>
+  <input id="nombre"
+         minlength="3"
+         maxlength="10"
+         name="nombre" type="text" [(ngModel)]="alex"  #vtNombre = "ngModel"  >
+
+
+
+  <pre> {{vtNombre.errors | json  }} </pre>
+
+
+
+  <button type="submit"> Entrar </button>
+
+</form>

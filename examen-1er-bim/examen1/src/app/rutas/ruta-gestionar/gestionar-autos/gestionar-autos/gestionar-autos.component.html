@@ -1,0 +1,50 @@
+<h1> {{conductorId}} </h1>
+
+
+{{busqueda}}
+
+<div class="form-group">
+  <label for="busqueda"> Buscar </label>
+  <input id="busqueda"
+         name="busqueda" type="text"
+         [(ngModel)]="busqueda">
+
+</div>
+<button class="btn btn-outline-primary" (click)="buscar()" >Buscar</button>
+<button class="btn btn-outline-secondary" (click)="crear()" >Crear</button>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md font-weight-bold border border-primary"> Conductor ID </div>
+    <div class="col-md font-weight-bold border border-primary"> Chasis </div>
+    <div class="col-md font-weight-bold border border-primary"> Marca </div>
+    <div class="col-md font-weight-bold border border-primary"> Primer Color </div>
+    <div class="col-md font-weight-bold border border-primary"> Segundo Color </div>
+    <div class="col-md font-weight-bold border border-primary"> Modelo </div>
+    <div class="col-md font-weight-bold border border-primary"> Año </div>
+    <div class="col-md font-weight-bold border border-primary"> Precio </div>
+    <div class="col-md font-weight-bold border border-primary"> Acciones </div>
+
+
+  </div>
+
+  <div class="row" *ngFor="let auto of this.listaAutosMostrar">
+    <div class="col-md border border-primary"> {{auto.idConductor}} </div>
+    <div class="col-md border border-primary"> {{auto.chasis}} </div>
+    <div class="col-md border border-primary"> {{auto.nombreMarca}} </div>
+    <div class="col-md border border-primary"> {{auto.colorUno.toString()}} </div>
+    <div class="col-md border border-primary" > {{auto.colorDos.toString()}} </div>
+    <div class="col-md border border-primary"> {{auto.nombreModelo}} </div>
+    <div class="col-md border border-primary"> {{auto.anio}} </div>
+    <div class="col-md border border-primary"> {{auto.precio}} </div>
+    <div class="col-md border border-primary">
+      <button (click)="elimarAuto(auto)" > eliminar </button>
+    </div>
+
+  </div>
+
+
+</div>
+
+
+<button (click)="volver()" >Volver...</button>

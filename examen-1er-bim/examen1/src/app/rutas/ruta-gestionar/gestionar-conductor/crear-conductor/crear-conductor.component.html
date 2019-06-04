@@ -1,0 +1,83 @@
+<h1>
+  Ingrese al nuevo cliente...
+</h1>
+
+<br>
+<br>
+
+<form
+  #formulario="ngForm"
+  novalidate
+  (submit)="guardarUsuario(formulario)"
+>
+
+  <div class="form-group">
+    <label for="nombre"> Nombre </label>
+    <input id="nombre"
+           required
+           minlength="3"
+           pattern="[A-Z][a-z]*"
+           name="nombre" type="text"
+           [(ngModel)]="nombre"
+           [(ngModel)]="nombre" #vtNombre = "ngModel"
+    >
+
+  </div>
+
+  <pre> {{vtNombre.errors | json  }} </pre>
+
+  <div class="form-group">
+    <label for="apellido"> Apellido </label>
+    <input id="apellido"
+           required
+           minlength="3"
+           pattern="[A-Z][a-z]*"
+
+           name="apellido" type="text"
+           [(ngModel)]="apellido" #vtApellido = "ngModel"
+    >
+
+  </div>
+
+
+  <pre> {{vtApellido.errors | json  }} </pre>
+
+  <div class="form-group row">
+    <label for="fechaNacimiento" class="col-2 col-form-label">Fecha Nacimiento</label>
+    <div class="col-10">
+      <input class="form-control" type="date" id="fechaNacimiento"
+             name="fechaNacimiento"
+             required
+             [(ngModel)]="fechaNacimiento" >
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label for="numeroAutos"> Numero de Autos </label>
+    <input id="numeroAutos"
+           min="0"
+           max="5"
+           name="numeroAutos" type="number"
+           [(ngModel)]="numeroAutos">
+
+  </div>
+
+  <div class="form-check">
+    <label class="form-check-label" for="licenciaValida">
+      <input type="checkbox"
+             class="form-check-input"
+             name="licenciaValida"
+             id="licenciaValida"
+             [(ngModel)]="licenciaValida" >
+      Licencia Valida
+    </label>
+
+  </div>
+
+  <button type="submit" > Agregar </button>
+
+</form>
+<hr>
+<button (click)="volver()" >
+  Volver...
+</button>
