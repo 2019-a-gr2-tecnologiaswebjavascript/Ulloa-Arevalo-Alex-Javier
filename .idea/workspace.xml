@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6e042c1-ad6a-4634-89bf-2dc70f5326fd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examen-1er-bim/examen1/src/app/interfaces/auto.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examen-1er-bim/examen1/src/app/interfaces/conductor.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examen-1er-bim/examen1/src/app/interfaces/factura.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examen-1er-bim/examen1/src/app/interfaces/item.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examen-1er-bim/examen1/src/app/rutas/ruta-comprar/ruta-comprar.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/examen-1er-bim/examen1/src/app/rutas/ruta-comprar/ruta-comprar.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examen-1er-bim/examen1/src/app/rutas/ruta-gestionar/gestionar-autos/crear-auto/crear-auto.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/examen-1er-bim/examen1/src/app/rutas/ruta-gestionar/gestionar-autos/crear-auto/crear-auto.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examen-1er-bim/examen1/src/app/rutas/ruta-gestionar/gestionar-autos/gestionar-autos/gestionar-autos.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/examen-1er-bim/examen1/src/app/rutas/ruta-gestionar/gestionar-autos/gestionar-autos/gestionar-autos.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examen-1er-bim/examen1/src/app/rutas/ruta-gestionar/gestionar-conductor/crear-conductor/crear-conductor.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/examen-1er-bim/examen1/src/app/rutas/ruta-gestionar/gestionar-conductor/crear-conductor/crear-conductor.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examen-1er-bim/examen1/src/app/rutas/ruta-gestionar/ruta-gestionar.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/examen-1er-bim/examen1/src/app/rutas/ruta-gestionar/ruta-gestionar.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examen-1er-bim/examen1/src/app/rutas/ruta-home/ruta-home.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/examen-1er-bim/examen1/src/app/rutas/ruta-home/ruta-home.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examen-1er-bim/examen1/src/app/rutas/ruta-revisar/ruta-revisar.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/examen-1er-bim/examen1/src/app/rutas/ruta-revisar/ruta-revisar.component.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,7 +23,30 @@
     <favorites_list name="Ulloa-Arevalo-Alex-Javier" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/examen-1er-bim/examen1/src/app/rutas/ruta-revisar/ruta-revisar.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="22" column="48" lean-forward="true" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/examen-1er-bim/examen1/src/app/rutas/ruta-comprar/ruta-comprar.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="99" column="48" selection-start-line="99" selection-start-column="20" selection-end-line="99" selection-end-column="48" />
+              <folding>
+                <element signature="n#div#0;n#div#0;n#!!top" />
+                <element signature="n#form#0;n#div#0;n#div#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -48,6 +71,8 @@
       <find>busqueda</find>
       <find>&quot;</find>
       <find>pre</find>
+      <find>&lt;but</find>
+      <find>&lt;button</find>
     </findStrings>
     <replaceStrings>
       <replace>fechaNacimiento</replace>
@@ -85,33 +110,33 @@
         <option value="$PROJECT_DIR$/examen-1er-bim/examen1/src/app/interfaces/conductor.service.ts" />
         <option value="$PROJECT_DIR$/examen-1er-bim/examen1/src/app/servicios/guards/esta-logeado.service.ts" />
         <option value="$PROJECT_DIR$/examen-1er-bim/examen1/src/app/rutas/ruta-home/ruta-home.component.ts" />
-        <option value="$PROJECT_DIR$/examen-1er-bim/examen1/src/app/rutas/ruta-home/ruta-home.component.html" />
         <option value="$PROJECT_DIR$/examen-1er-bim/examen1/src/app/rutas/ruta-gestionar/ruta-gestionar.component.css" />
         <option value="$PROJECT_DIR$/examen-1er-bim/examen1/src/app/interfaces/conductor.ts" />
         <option value="$PROJECT_DIR$/examen-1er-bim/examen1/src/app/servicios/tienda/conductor.service.ts" />
         <option value="$PROJECT_DIR$/examen-1er-bim/examen1/src/app/rutas/ruta-gestionar/gestionar-conductor/crear-conductor/crear-conductor.component.ts" />
         <option value="$PROJECT_DIR$/examen-1er-bim/examen1/src/app/servicios/tienda/auto.service.ts" />
         <option value="$PROJECT_DIR$/examen-1er-bim/examen1/src/app/rutas/ruta-gestionar/gestionar-autos/gestionar-autos/gestionar-autos.component.ts" />
-        <option value="$PROJECT_DIR$/examen-1er-bim/examen1/src/app/rutas/ruta-gestionar/gestionar-conductor/crear-conductor/crear-conductor.component.html" />
         <option value="$PROJECT_DIR$/examen-1er-bim/examen1/src/app/app.module.ts" />
         <option value="$PROJECT_DIR$/examen-1er-bim/examen1/src/app/interfaces/auto.ts" />
-        <option value="$PROJECT_DIR$/examen-1er-bim/examen1/src/app/rutas/ruta-gestionar/gestionar-autos/gestionar-autos/gestionar-autos.component.html" />
-        <option value="$PROJECT_DIR$/examen-1er-bim/examen1/src/app/rutas/ruta-gestionar/gestionar-autos/crear-auto/crear-auto.component.html" />
         <option value="$PROJECT_DIR$/examen-1er-bim/examen1/src/app/rutas/ruta-gestionar/gestionar-autos/crear-auto/crear-auto.component.ts" />
-        <option value="$PROJECT_DIR$/examen-1er-bim/examen1/src/app/rutas/ruta-gestionar/ruta-gestionar.component.html" />
         <option value="$PROJECT_DIR$/examen-1er-bim/examen1/src/app/rutas/ruta-gestionar/ruta-gestionar.component.ts" />
         <option value="$PROJECT_DIR$/examen-1er-bim/examen1/src/app/interfaces/item.ts" />
-        <option value="$PROJECT_DIR$/examen-1er-bim/examen1/src/app/rutas/ruta-comprar/ruta-comprar.component.html" />
         <option value="$PROJECT_DIR$/examen-1er-bim/examen1/src/app/servicios/factura/factura.service.ts" />
         <option value="$PROJECT_DIR$/examen-1er-bim/examen1/src/app/interfaces/factura.ts" />
         <option value="$PROJECT_DIR$/examen-1er-bim/examen1/src/app/servicios/tienda.service.ts" />
         <option value="$PROJECT_DIR$/examen-1er-bim/examen1/src/app/app-routing.module.ts" />
-        <option value="$PROJECT_DIR$/examen-1er-bim/examen1/src/app/rutas/ruta-revisar/ruta-revisar.component.html" />
         <option value="$PROJECT_DIR$/examen-1er-bim/examen1/src/app/rutas/ruta-revisar/ruta-revisar.component.ts" />
         <option value="$PROJECT_DIR$/examen-1er-bim/examen1/src/app/rutas/ruta-comprar/ruta-comprar.component.ts" />
         <option value="$PROJECT_DIR$/examen-1er-bim/examen1/src/app/rutas/ruta-menu/ruta-menu/ruta-menu.component.html" />
         <option value="$PROJECT_DIR$/examen-1er-bim/examen1/src/app/rutas/ruta-menu/ruta-menu/ruta-menu.component.ts" />
         <option value="$PROJECT_DIR$/examen-1er-bim/examen1/src/app/servicios/auth/auth.service.ts" />
+        <option value="$PROJECT_DIR$/examen-1er-bim/examen1/src/app/rutas/ruta-gestionar/ruta-gestionar.component.html" />
+        <option value="$PROJECT_DIR$/examen-1er-bim/examen1/src/app/rutas/ruta-comprar/ruta-comprar.component.html" />
+        <option value="$PROJECT_DIR$/examen-1er-bim/examen1/src/app/rutas/ruta-gestionar/gestionar-autos/crear-auto/crear-auto.component.html" />
+        <option value="$PROJECT_DIR$/examen-1er-bim/examen1/src/app/rutas/ruta-gestionar/gestionar-autos/gestionar-autos/gestionar-autos.component.html" />
+        <option value="$PROJECT_DIR$/examen-1er-bim/examen1/src/app/rutas/ruta-gestionar/gestionar-conductor/crear-conductor/crear-conductor.component.html" />
+        <option value="$PROJECT_DIR$/examen-1er-bim/examen1/src/app/rutas/ruta-home/ruta-home.component.html" />
+        <option value="$PROJECT_DIR$/examen-1er-bim/examen1/src/app/rutas/ruta-revisar/ruta-revisar.component.html" />
       </list>
     </option>
   </component>
@@ -157,6 +182,25 @@
               <item name="examen1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Ulloa-Arevalo-Alex-Javier" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Ulloa-Arevalo-Alex-Javier" type="462c0819:PsiDirectoryNode" />
+              <item name="examen-1er-bim" type="462c0819:PsiDirectoryNode" />
+              <item name="examen1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="rutas" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Ulloa-Arevalo-Alex-Javier" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Ulloa-Arevalo-Alex-Javier" type="462c0819:PsiDirectoryNode" />
+              <item name="examen-1er-bim" type="462c0819:PsiDirectoryNode" />
+              <item name="examen1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="rutas" type="462c0819:PsiDirectoryNode" />
+              <item name="ruta-comprar" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -213,12 +257,12 @@
       <workItem from="1558069548296" duration="1483000" />
       <workItem from="1558238529313" duration="796000" />
       <workItem from="1559486504385" duration="29549000" />
-      <workItem from="1559588704717" duration="30951000" />
+      <workItem from="1559588704717" duration="32291000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127883000" />
+    <option name="totallyTimeSpent" value="129223000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -231,6 +275,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" sideWeight="0.5019763" side_tool="true" weight="0.24917382" />
       <window_info id="Favorites" order="1" sideWeight="0.5019763" side_tool="true" weight="0.24917382" />
@@ -480,20 +525,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examen-1er-bim/examen1/src/app/rutas/ruta-gestionar/gestionar-conductor/crear-conductor/crear-conductor.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="83" selection-start-line="83" selection-end-line="83" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examen-1er-bim/examen1/src/app/rutas/ruta-home/ruta-home.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="10" column="36" lean-forward="true" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/examen-1er-bim/examen1/src/app/rutas/ruta-gestionar/gestionar-autos/gestionar-autos/gestionar-autos.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1003">
@@ -524,24 +555,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examen-1er-bim/examen1/src/app/rutas/ruta-gestionar/gestionar-autos/gestionar-autos/gestionar-autos.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="37" column="9" lean-forward="true" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/examen-1er-bim/examen1/src/app/interfaces/auto.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
           <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examen-1er-bim/examen1/src/app/rutas/ruta-gestionar/gestionar-autos/crear-auto/crear-auto.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
@@ -592,17 +609,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examen-1er-bim/examen1/src/app/rutas/ruta-comprar/ruta-comprar.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="960">
-          <caret line="111" column="17" selection-start-line="111" selection-start-column="17" selection-end-line="111" selection-end-column="17" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#!!top" />
-            <element signature="n#form#0;n#div#0;n#div#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/examen-1er-bim/examen1/src/app/app-routing.module.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -639,20 +645,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examen-1er-bim/examen1/src/app/rutas/ruta-gestionar/ruta-gestionar.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examen-1er-bim/examen1/src/app/rutas/ruta-revisar/ruta-revisar.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/examen-1er-bim/examen1/src/app/rutas/ruta-revisar/ruta-revisar.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
@@ -670,13 +662,6 @@
           <folding>
             <element signature="e#0#50#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examen-1er-bim/examen1/src/app/rutas/ruta-menu/ruta-menu/ruta-menu.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -707,6 +692,66 @@
           <folding>
             <element signature="e#0#43#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examen-1er-bim/examen1/src/app/rutas/ruta-gestionar/ruta-gestionar.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="39" column="4" selection-start-line="39" selection-end-line="39" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examen-1er-bim/examen1/src/app/rutas/ruta-gestionar/gestionar-autos/crear-auto/crear-auto.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="95" lean-forward="true" selection-start-line="95" selection-end-line="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examen-1er-bim/examen1/src/app/rutas/ruta-gestionar/gestionar-autos/gestionar-autos/gestionar-autos.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="5" column="24" lean-forward="true" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examen-1er-bim/examen1/src/app/rutas/ruta-gestionar/gestionar-conductor/crear-conductor/crear-conductor.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="71" column="21" lean-forward="true" selection-start-line="71" selection-start-column="21" selection-end-line="71" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examen-1er-bim/examen1/src/app/rutas/ruta-menu/ruta-menu/ruta-menu.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="23" column="21" lean-forward="true" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examen-1er-bim/examen1/src/app/rutas/ruta-home/ruta-home.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examen-1er-bim/examen1/src/app/rutas/ruta-comprar/ruta-comprar.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="99" column="48" selection-start-line="99" selection-start-column="20" selection-end-line="99" selection-end-column="48" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#!!top" />
+            <element signature="n#form#0;n#div#0;n#div#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examen-1er-bim/examen1/src/app/rutas/ruta-revisar/ruta-revisar.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="22" column="48" lean-forward="true" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
         </state>
       </provider>
     </entry>

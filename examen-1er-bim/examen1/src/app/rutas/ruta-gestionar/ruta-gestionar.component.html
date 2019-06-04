@@ -29,12 +29,12 @@
     <div class="col-md border border-primary"> {{ conductor.numeroAutos }} </div>
     <div class="col-md border border-primary"> {{ conductor.licenciaValida }} </div>
     <div class="col-md border border-primary">
-      <button (click)="elimarConductor(conductor.conductorId)" > eliminar </button>
-      <button (click)="administrarProducto(conductor.conductorId)" > producto </button>
+      <button (click)="elimarConductor(conductor.conductorId)" class="btn btn-outline-danger" > eliminar </button>
+      <button (click)="administrarProducto(conductor.conductorId)" class="btn btn-outline-dark" > producto </button>
     </div>
 
   </div>
 
 </div>
 
-<button (click)="volver()" >Volver...</button>
+<button (click)="volver()" class="btn btn-outline-info" >Volver...</button>

@@ -64,7 +64,7 @@
                [(ngModel)]="correo" #vtCorreo = "ngModel">
       </div>
 
-      <button> Guardar factura </button>
+      <button class="btn btn-outline-success" > Guardar factura </button>
 
     </form>
   </div>
@@ -73,34 +73,34 @@
     <div class="container">
 
       <div class="row">
-        <div class="col">Producto</div>
-        <div class="col">Grupo</div>
-        <div class="col">Precio</div>
-        <div class="col">Accion</div>
+        <div class="col-md font-weight-bold border border-primary">Producto</div>
+        <div class="col-md font-weight-bold border border-primary">Grupo</div>
+        <div class="col-md font-weight-bold border border-primary">Precio</div>
+        <div class="col-md font-weight-bold border border-primary">Accion</div>
       </div>
 
       <div class="row" *ngFor="let item of listaProductos">
-        <div class="col">{{item.chasis}} {{item.anio}}</div>
-        <div class="col">{{item.conductor}}</div>
-        <div class="col">{{item.precio}}</div>
-        <div class="col"><button (click)="agregarItem(item)" >+</button></div>
+        <div class="col-md border border-primary">{{item.chasis}} {{item.anio}}</div>
+        <div class="col-md border border-primary">{{item.conductor}}</div>
+        <div class="col-md border border-primary">{{item.precio}}</div>
+        <div class="col-md border border-primary"><button (click)="agregarItem(item)" class="btn btn-outline-success"  >+</button></div>
       </div>
 
-
+      <hr>
     </div>
     <div class="container">
       <div class="row">
-        <div class="col">Producto</div>
-        <div class="col">Grupo</div>
-        <div class="col">Cantidad</div>
-        <div class="col">Accion</div>
+        <div class="col-md font-weight-bold border border-primary">Producto</div>
+        <div class="col-md font-weight-bold border border-primary">Grupo</div>
+        <div class="col-md font-weight-bold border border-primary">Cantidad</div>
+        <div class="col-md font-weight-bold border border-primary">Accion</div>
       </div>
 
       <div class="row" *ngFor="let item of this._facturaService.listaCompras" >
-        <div class="col">{{item.chasis}} {{item.anio}}</div>
-        <div class="col"> {{item.conductor}} </div>
-        <div class="col"> {{item.cantidad}} </div>
-        <div class="col" > <button (click)="restarItem(item)">-</button> </div>
+        <div class="col-md border border-primary">{{item.chasis}} {{item.anio}}</div>
+        <div class="col-md border border-primary"> {{item.conductor}} </div>
+        <div class="col-md border border-primary"> {{item.cantidad}} </div>
+        <div class="col-md border border-primary" > <button (click)="restarItem(item)" class="btn btn-outline-danger" >-</button> </div>
       </div>
     </div>
 
@@ -108,7 +108,7 @@
 
 </div>
 
-
-<button (click)="volver()">
+<hr>
+<button (click)="volver()" class="btn btn-outline-info" >
   Volver...
 </button>
