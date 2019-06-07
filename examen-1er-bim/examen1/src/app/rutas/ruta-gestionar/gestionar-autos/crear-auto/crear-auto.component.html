@@ -1,0 +1,103 @@
+<h1>
+  Ingrese el nuevo auto...
+</h1>
+
+<br>
+<br>
+
+<form
+  #formulario="ngForm"
+  novalidate
+  (submit)="guardarAuto(formulario)"
+>
+
+  <div class="form-group">
+    <label for="chasis"> Chasis </label>
+    <input id="chasis"
+           required
+           minlength="3"
+           name="chasis" type="text"
+           [(ngModel)]="chasis" #vtChasis = "ngModel"
+    >
+
+  </div>
+
+  <div class="form-group">
+    <label for="marca"> Marca </label>
+    <input id="marca"
+           required
+           minlength="3"
+           name="marca" type="text"
+           [(ngModel)]="marca" #vtMarca = "ngModel"
+    >
+
+  </div>
+
+  <div class="form-group row">
+    <label for="colorUno" class="col-2 col-form-label">Primer Color</label>
+    <div class="col-10">
+      <input class="form-control"
+             type="color"
+             value="#563d7c"
+             id="colorUno"
+             required
+             name="colorUno"
+             [(ngModel)]="colorUno" #vtColorUno = "ngModel"
+      >
+    </div>
+  </div>
+
+
+  <div class="form-group row">
+    <label for="colorDos" class="col-2 col-form-label">Segundo Color</label>
+    <div class="col-10">
+      <input class="form-control"
+             type="color"
+             value="#563d7c"
+             id="colorDos"
+             required
+             name="colorDos"
+             [(ngModel)]="colorDos" #vtColorDos = "ngModel"
+      >
+    </div>
+  </div>
+
+
+    <div class="form-group">
+      <label for="modelo"> Modelo </label>
+      <input id="modelo"
+             required
+
+             name="modelo" type="text"
+             [(ngModel)]="modelo" #vtModelo = "ngModel"
+      >
+
+    </div>
+
+    <div class="form-group">
+      <label for="anio"> Año </label>
+      <input id="anio"
+             min="1900"
+             max="2020"
+             name="anio" type="number"
+             value="2019"
+             [(ngModel)]="anio">
+
+    </div>
+
+  <div class="form-group">
+    <label for="precio"> Precio </label>
+    <input id="precio"
+           min="0"
+           name="precio" type="number"
+           [(ngModel)]="precio">
+
+  </div>
+
+    <button type="submit" class="btn btn-outline-success"  > Agregar </button>
+
+</form>
+<hr>
+<button (click)="volver()" class="btn btn-outline-info"  >
+  Volver...
+</button>

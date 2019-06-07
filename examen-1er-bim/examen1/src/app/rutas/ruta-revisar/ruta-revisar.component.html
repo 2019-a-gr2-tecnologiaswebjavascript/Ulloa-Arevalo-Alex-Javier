@@ -1,0 +1,39 @@
+<h1>
+  Revisar facturas...
+</h1>
+
+<div class="form-group">
+  <label for="busqueda"> Busqueda </label>
+  <input id="busqueda"
+         name="busqueda" type="text"
+         [(ngModel)]="busqueda" #vtBusqueda = "ngModel"
+  >
+</div>
+<button (click)="buscarPorCliente()" class="btn btn-outline-dark"  >Por Cliente</button>
+<button (click)="buscarPorCajero()" class="btn btn-outline-dark" >Por Cajero</button>
+<hr>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md font-weight-bold border border-primary">Nombre</div>
+    <div class="col-md font-weight-bold border border-primary">Cedula</div>
+    <div class="col-md font-weight-bold border border-primary">Direccion</div>
+    <div class="col-md font-weight-bold border border-primary">Correo</div>
+    <div class="col-md font-weight-bold border border-primary">Total</div>
+    <div class="col-md font-weight-bold border border-primary">Cajero</div>
+  </div>
+
+  <div class="row" *ngFor="let factura of listaFacturas">
+    <div class="col-md border border-primary">{{factura.nombre}}</div>
+    <div class="col-md border border-primary">{{factura.cedula}}</div>
+    <div class="col-md border border-primary">{{factura.direccion}}</div>
+    <div class="col-md border border-primary">{{factura.correo}}</div>
+    <div class="col-md border border-primary">{{factura.total}}</div>
+    <div class="col-md border border-primary">{{factura.cajero}}</div>
+  </div>
+
+</div>
+
+<hr>
+
+<button (click)="volver()" class="btn btn-outline-info" >Volver...</button>

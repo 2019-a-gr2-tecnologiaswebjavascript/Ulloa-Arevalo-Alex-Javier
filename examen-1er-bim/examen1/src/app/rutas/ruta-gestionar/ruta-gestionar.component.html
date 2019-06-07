@@ -1,0 +1,40 @@
+<div class="form-group">
+    <label for="busqueda"> Buscar </label>
+    <input id="busqueda"
+           name="busqueda" type="text"
+           [(ngModel)]="busqueda">
+
+  </div>
+<button class="btn btn-outline-primary" (click)="buscar()" >Buscar</button>
+<button class="btn btn-outline-secondary" (click)="crear()" >Crear</button>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md font-weight-bold border border-primary"> Conductor ID </div>
+    <div class="col-md font-weight-bold border border-primary"> Nombre </div>
+    <div class="col-md font-weight-bold border border-primary"> Apellido </div>
+    <div class="col-md font-weight-bold border border-primary"> Fecha Nacimiento </div>
+    <div class="col-md font-weight-bold border border-primary"> #Autos </div>
+    <div class="col-md font-weight-bold border border-primary">Valida? </div>
+    <div class="col-md font-weight-bold border border-primary">Acciones</div>
+
+  </div>
+
+  <div class="row" *ngFor="let conductor of this.listaConductoresMostrar" >
+
+    <div class="col-md border border-primary"> {{ conductor.conductorId }} </div>
+    <div class="col-md border border-primary"> {{ conductor.nombre }} </div>
+    <div class="col-md border border-primary"> {{ conductor.apellido }} </div>
+    <div class="col-md border border-primary"> {{ conductor.fechaNacimiento }} </div>
+    <div class="col-md border border-primary"> {{ conductor.numeroAutos }} </div>
+    <div class="col-md border border-primary"> {{ conductor.licenciaValida }} </div>
+    <div class="col-md border border-primary">
+      <button (click)="elimarConductor(conductor.conductorId)" class="btn btn-outline-danger" > eliminar </button>
+      <button (click)="administrarProducto(conductor.conductorId)" class="btn btn-outline-dark" > producto </button>
+    </div>
+
+  </div>
+
+</div>
+
+<button (click)="volver()" class="btn btn-outline-info" >Volver...</button>
