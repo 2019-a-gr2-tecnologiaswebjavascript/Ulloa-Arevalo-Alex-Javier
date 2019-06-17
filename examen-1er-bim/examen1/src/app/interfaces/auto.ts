@@ -1,5 +1,5 @@
 export interface Auto { // sirve para tipar
-  chasis: number;
+  chasis: string;
   nombreMarca: string;
   colorUno: string;
   colorDos: string;

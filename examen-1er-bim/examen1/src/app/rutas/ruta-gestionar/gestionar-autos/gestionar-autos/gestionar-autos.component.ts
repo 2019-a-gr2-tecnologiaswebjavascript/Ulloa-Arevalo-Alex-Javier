@@ -9,6 +9,7 @@ import {Auto} from "../../../../interfaces/auto";
   styleUrls: ['./gestionar-autos.component.css']
 })
 export class GestionarAutosComponent implements OnInit {
+  busqueda: string = '';
 
   conductorId: number;
   listaAutosMostrar: Auto[] = this._autoService.listaAutos.filter(
