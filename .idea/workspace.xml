@@ -2,13 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6e042c1-ad6a-4634-89bf-2dc70f5326fd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/examen-1er-bim/examen1/src/app/rutas/ruta-comprar/ruta-comprar.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/examen-1er-bim/examen1/src/app/rutas/ruta-comprar/ruta-comprar.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examen-1er-bim/examen1/src/app/rutas/ruta-gestionar/gestionar-autos/crear-auto/crear-auto.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/examen-1er-bim/examen1/src/app/rutas/ruta-gestionar/gestionar-autos/crear-auto/crear-auto.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examen-1er-bim/examen1/src/app/rutas/ruta-gestionar/gestionar-autos/gestionar-autos/gestionar-autos.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/examen-1er-bim/examen1/src/app/rutas/ruta-gestionar/gestionar-autos/gestionar-autos/gestionar-autos.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examen-1er-bim/examen1/src/app/rutas/ruta-gestionar/gestionar-conductor/crear-conductor/crear-conductor.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/examen-1er-bim/examen1/src/app/rutas/ruta-gestionar/gestionar-conductor/crear-conductor/crear-conductor.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examen-1er-bim/examen1/src/app/rutas/ruta-gestionar/ruta-gestionar.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/examen-1er-bim/examen1/src/app/rutas/ruta-gestionar/ruta-gestionar.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examen-1er-bim/examen1/src/app/rutas/ruta-home/ruta-home.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/examen-1er-bim/examen1/src/app/rutas/ruta-home/ruta-home.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examen-1er-bim/examen1/src/app/rutas/ruta-revisar/ruta-revisar.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/examen-1er-bim/examen1/src/app/rutas/ruta-revisar/ruta-revisar.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-backend/tienda-frontend/src/app/dto/usuario.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-backend/tienda-frontend/src/app/servicios/http/http-sails-principal.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-backend/tienda-frontend/src/app/servicios/http/usuario-http.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-backend/tienda-backend/config/datastores.js" beforeDir="false" afterPath="$PROJECT_DIR$/05-backend/tienda-backend/config/datastores.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-backend/tienda-backend/config/security.js" beforeDir="false" afterPath="$PROJECT_DIR$/05-backend/tienda-backend/config/security.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-backend/tienda-backend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/05-backend/tienda-backend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-backend/tienda-backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/05-backend/tienda-backend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examen-1er-bim/examen1/src/app/interfaces/auto.ts" beforeDir="false" afterPath="$PROJECT_DIR$/examen-1er-bim/examen1/src/app/interfaces/auto.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examen-1er-bim/examen1/src/app/rutas/ruta-gestionar/gestionar-autos/gestionar-autos/gestionar-autos.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/examen-1er-bim/examen1/src/app/rutas/ruta-gestionar/gestionar-autos/gestionar-autos/gestionar-autos.component.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,30 +26,7 @@
     <favorites_list name="Ulloa-Arevalo-Alex-Javier" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/examen-1er-bim/examen1/src/app/rutas/ruta-revisar/ruta-revisar.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="22" column="48" lean-forward="true" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/examen-1er-bim/examen1/src/app/rutas/ruta-comprar/ruta-comprar.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="99" column="48" selection-start-line="99" selection-start-column="20" selection-end-line="99" selection-end-column="48" />
-              <folding>
-                <element signature="n#div#0;n#div#0;n#!!top" />
-                <element signature="n#form#0;n#div#0;n#div#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -73,6 +53,7 @@
       <find>pre</find>
       <find>&lt;but</find>
       <find>&lt;button</find>
+      <find>busq</find>
     </findStrings>
     <replaceStrings>
       <replace>fechaNacimiento</replace>
@@ -86,15 +67,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/01-Angular/tienda/src/app/item-menu/item-menu.component.ts" />
-        <option value="$PROJECT_DIR$/01-Angular/tienda/src/app/contenedor-superior/contenedor-superior.component.ts" />
-        <option value="$PROJECT_DIR$/01-Angular/tienda/src/app/app.component.html" />
-        <option value="$PROJECT_DIR$/01-Angular/tienda/src/app/app.component.ts" />
-        <option value="$PROJECT_DIR$/01-Angular/tienda/angular.json" />
-        <option value="$PROJECT_DIR$/01-Angular/tienda/src/app/contenedor-producto/contenedor-producto.component.html" />
-        <option value="$PROJECT_DIR$/01-Angular/tienda/src/app/contenedor-superior/contenedor-superior.component.html" />
-        <option value="$PROJECT_DIR$/01-Angular/tienda/src/styles.css" />
-        <option value="$PROJECT_DIR$/02-ionic/tinderpoli/src/app/tab1/tab1.page.html" />
         <option value="$PROJECT_DIR$/02-ionic/go-uio/go-uio/src/app/tab1/tab1.page.ts" />
         <option value="$PROJECT_DIR$/02-ionic/go-uio/go-uio/src/app/tab1/tab1.page.scss" />
         <option value="$PROJECT_DIR$/02-ionic/go-uio/go-uio/src/app/tab1/tab1.page.html" />
@@ -115,9 +87,7 @@
         <option value="$PROJECT_DIR$/examen-1er-bim/examen1/src/app/servicios/tienda/conductor.service.ts" />
         <option value="$PROJECT_DIR$/examen-1er-bim/examen1/src/app/rutas/ruta-gestionar/gestionar-conductor/crear-conductor/crear-conductor.component.ts" />
         <option value="$PROJECT_DIR$/examen-1er-bim/examen1/src/app/servicios/tienda/auto.service.ts" />
-        <option value="$PROJECT_DIR$/examen-1er-bim/examen1/src/app/rutas/ruta-gestionar/gestionar-autos/gestionar-autos/gestionar-autos.component.ts" />
         <option value="$PROJECT_DIR$/examen-1er-bim/examen1/src/app/app.module.ts" />
-        <option value="$PROJECT_DIR$/examen-1er-bim/examen1/src/app/interfaces/auto.ts" />
         <option value="$PROJECT_DIR$/examen-1er-bim/examen1/src/app/rutas/ruta-gestionar/gestionar-autos/crear-auto/crear-auto.component.ts" />
         <option value="$PROJECT_DIR$/examen-1er-bim/examen1/src/app/rutas/ruta-gestionar/ruta-gestionar.component.ts" />
         <option value="$PROJECT_DIR$/examen-1er-bim/examen1/src/app/interfaces/item.ts" />
@@ -133,17 +103,29 @@
         <option value="$PROJECT_DIR$/examen-1er-bim/examen1/src/app/rutas/ruta-gestionar/ruta-gestionar.component.html" />
         <option value="$PROJECT_DIR$/examen-1er-bim/examen1/src/app/rutas/ruta-comprar/ruta-comprar.component.html" />
         <option value="$PROJECT_DIR$/examen-1er-bim/examen1/src/app/rutas/ruta-gestionar/gestionar-autos/crear-auto/crear-auto.component.html" />
-        <option value="$PROJECT_DIR$/examen-1er-bim/examen1/src/app/rutas/ruta-gestionar/gestionar-autos/gestionar-autos/gestionar-autos.component.html" />
         <option value="$PROJECT_DIR$/examen-1er-bim/examen1/src/app/rutas/ruta-gestionar/gestionar-conductor/crear-conductor/crear-conductor.component.html" />
         <option value="$PROJECT_DIR$/examen-1er-bim/examen1/src/app/rutas/ruta-home/ruta-home.component.html" />
         <option value="$PROJECT_DIR$/examen-1er-bim/examen1/src/app/rutas/ruta-revisar/ruta-revisar.component.html" />
+        <option value="$PROJECT_DIR$/examen-1er-bim/examen1/src/app/rutas/ruta-gestionar/gestionar-autos/gestionar-autos/gestionar-autos.component.html" />
+        <option value="$PROJECT_DIR$/examen-1er-bim/examen1/src/app/rutas/ruta-gestionar/gestionar-autos/gestionar-autos/gestionar-autos.component.ts" />
+        <option value="$PROJECT_DIR$/examen-1er-bim/examen1/src/app/interfaces/auto.ts" />
+        <option value="$PROJECT_DIR$/05-backend/tienda-backend/config/datastores.js" />
+        <option value="$PROJECT_DIR$/05-backend/tienda-frontend/src/environments/environment.ts" />
+        <option value="$PROJECT_DIR$/05-backend/tienda-frontend/src/environments/environment.prod.ts" />
+        <option value="$PROJECT_DIR$/05-backend/tienda-backend/config/security.js" />
+        <option value="$PROJECT_DIR$/05-backend/tienda-frontend/src/app/servicios/http/http-sails-principal.ts" />
+        <option value="$PROJECT_DIR$/05-backend/tienda-frontend/src/app/servicios/http/usuario-http.service.ts" />
+        <option value="$PROJECT_DIR$/05-backend/tienda-frontend/src/app/dto/usuario.ts" />
+        <option value="$PROJECT_DIR$/05-backend/tienda-frontend/src/app/app.component.ts" />
+        <option value="$PROJECT_DIR$/05-backend/tienda-frontend/src/app/app.module.ts" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="960" />
-    <option name="width" value="960" />
-    <option name="height" value="1030" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -160,47 +142,37 @@
             <path>
               <item name="Ulloa-Arevalo-Alex-Javier" type="b2602c69:ProjectViewProjectNode" />
               <item name="Ulloa-Arevalo-Alex-Javier" type="462c0819:PsiDirectoryNode" />
-              <item name="examen-1er-bim" type="462c0819:PsiDirectoryNode" />
+              <item name="05-backend" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Ulloa-Arevalo-Alex-Javier" type="b2602c69:ProjectViewProjectNode" />
               <item name="Ulloa-Arevalo-Alex-Javier" type="462c0819:PsiDirectoryNode" />
-              <item name="examen-1er-bim" type="462c0819:PsiDirectoryNode" />
-              <item name="examen1" type="462c0819:PsiDirectoryNode" />
+              <item name="05-backend" type="462c0819:PsiDirectoryNode" />
+              <item name="tienda-frontend" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Ulloa-Arevalo-Alex-Javier" type="b2602c69:ProjectViewProjectNode" />
               <item name="Ulloa-Arevalo-Alex-Javier" type="462c0819:PsiDirectoryNode" />
-              <item name="examen-1er-bim" type="462c0819:PsiDirectoryNode" />
-              <item name="examen1" type="462c0819:PsiDirectoryNode" />
+              <item name="05-backend" type="462c0819:PsiDirectoryNode" />
+              <item name="tienda-frontend" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Ulloa-Arevalo-Alex-Javier" type="b2602c69:ProjectViewProjectNode" />
               <item name="Ulloa-Arevalo-Alex-Javier" type="462c0819:PsiDirectoryNode" />
-              <item name="examen-1er-bim" type="462c0819:PsiDirectoryNode" />
-              <item name="examen1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Ulloa-Arevalo-Alex-Javier" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Ulloa-Arevalo-Alex-Javier" type="462c0819:PsiDirectoryNode" />
-              <item name="examen-1er-bim" type="462c0819:PsiDirectoryNode" />
-              <item name="examen1" type="462c0819:PsiDirectoryNode" />
+              <item name="05-backend" type="462c0819:PsiDirectoryNode" />
+              <item name="tienda-frontend" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="rutas" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Ulloa-Arevalo-Alex-Javier" type="b2602c69:ProjectViewProjectNode" />
               <item name="Ulloa-Arevalo-Alex-Javier" type="462c0819:PsiDirectoryNode" />
-              <item name="examen-1er-bim" type="462c0819:PsiDirectoryNode" />
-              <item name="examen1" type="462c0819:PsiDirectoryNode" />
+              <item name="05-backend" type="462c0819:PsiDirectoryNode" />
+              <item name="tienda-frontend" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="rutas" type="462c0819:PsiDirectoryNode" />
-              <item name="ruta-comprar" type="462c0819:PsiDirectoryNode" />
+              <item name="dto" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -221,8 +193,8 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.folding" />
-    <property name="ts.external.directory.path" value="C:\Users\ajua_\OneDrive\Documents\GitHub\Ulloa-Arevalo-Alex-Javier\01-Angular\galeria\node_modules\typescript\lib" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="ts.external.directory.path" value="C:\Users\ajua_\OneDrive\Documents\GitHub\Ulloa-Arevalo-Alex-Javier\02-ionic\go-uio\go-uio\node_modules\typescript\lib" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -257,12 +229,17 @@
       <workItem from="1558069548296" duration="1483000" />
       <workItem from="1558238529313" duration="796000" />
       <workItem from="1559486504385" duration="29549000" />
-      <workItem from="1559588704717" duration="32291000" />
+      <workItem from="1559588704717" duration="32416000" />
+      <workItem from="1559661759366" duration="454000" />
+      <workItem from="1560201053448" duration="2296000" />
+      <workItem from="1560552854706" duration="71000" />
+      <workItem from="1560802054937" duration="1490000" />
+      <workItem from="1560805788044" duration="6050000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="129223000" />
+    <option name="totallyTimeSpent" value="139709000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -275,11 +252,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" sideWeight="0.5019763" side_tool="true" weight="0.24917382" />
       <window_info id="Favorites" order="1" sideWeight="0.5019763" side_tool="true" weight="0.24917382" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.49802372" visible="true" weight="0.24917382" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.49802372" visible="true" weight="0.24900925" />
       <window_info anchor="bottom" id="TypeScript" order="0" weight="0.3293011" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
@@ -290,7 +266,7 @@
       <window_info anchor="bottom" id="TODO" order="7" weight="0.3293011" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3293011" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.28306878" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.4372523" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -299,6 +275,11 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/05-backend/tienda-frontend/node_modules/karma/config.tpl.js" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -341,116 +322,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/03-rutas/rutas/src/app/rutas/ruta-producto-videojuego-moba/ruta-producto-videojuego-moba.component.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-rutas/rutas/src/app/rutas/ruta-producto-videojuego-rpg/ruta-producto-videojuego-rpg.component.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-rutas/rutas/src/app/app.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-rutas/rutas/src/app/app.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examen-1er-bim/examen1/src/tslint.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examen-1er-bim/examen1/node_modules/@angular/core/src/metadata/directives.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="467" column="4" selection-start-line="467" selection-start-column="4" selection-end-line="467" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examen-1er-bim/examen1/src/app/servicios/guards/esta-logeado.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examen-1er-bim/examen1/src/app/rutas/ruta-home/ruta-home.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="19" column="28" lean-forward="true" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examen-1er-bim/examen1/src/app/rutas/ruta-gestionar/ruta-gestionar.component.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examen-1er-bim/examen1/src/app/servicios/tienda/conductor.service.spec.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#48#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01-Angular/galeria/src/app/app.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="22" column="35" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/04-formularios/formularios/src/app/app.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-120">
-          <caret line="25" column="44" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-rutas/rutas/src/app/rutas/ruta-home/ruta-home.component.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-rutas/rutas/src/app/rutas/ruta-creditos/ruta-creditos.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-rutas/rutas/src/app/rutas/ruta-home/ruta-home.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="17" column="28" lean-forward="true" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-rutas/rutas/src/app/rutas/ruta-productos/ruta-productos.component.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-rutas/rutas/src/app/rutas/ruta-no-encontrada/ruta-no-encontrada.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/03-rutas/rutas/src/app/servicios/auth/auth.service.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="327">
@@ -525,16 +396,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examen-1er-bim/examen1/src/app/rutas/ruta-gestionar/gestionar-autos/gestionar-autos/gestionar-autos.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1003">
-          <caret line="76" selection-start-line="76" selection-end-line="76" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/examen-1er-bim/examen1/src/app/app.module.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -552,13 +413,6 @@
           <folding>
             <element signature="e#0#50#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examen-1er-bim/examen1/src/app/interfaces/auto.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -591,20 +445,6 @@
           <caret line="38" column="8" lean-forward="true" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="28" />
           <folding>
             <element signature="e#0#77#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examen-1er-bim/examen1/src/app/servicios/factura/factura.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="87" column="2" selection-start-line="87" selection-start-column="2" selection-end-line="87" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-            <element signature="n#!!block;n#getListItemFactura#0;n#FacturaService#0" />
-            <element signature="n#!!block;n#agregarItemCarrito#0;n#FacturaService#0" />
-            <element signature="n#!!block;n#restarItemCarrito#0;n#FacturaService#0" />
-            <element signature="n#!!block;n#generarTotal#0;n#FacturaService#0" />
           </folding>
         </state>
       </provider>
@@ -709,13 +549,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examen-1er-bim/examen1/src/app/rutas/ruta-gestionar/gestionar-autos/gestionar-autos/gestionar-autos.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="5" column="24" lean-forward="true" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/examen-1er-bim/examen1/src/app/rutas/ruta-gestionar/gestionar-conductor/crear-conductor/crear-conductor.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="113">
@@ -737,10 +570,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/examen-1er-bim/examen1/src/app/rutas/ruta-revisar/ruta-revisar.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examen-1er-bim/examen1/src/app/servicios/factura/factura.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+            <element signature="n#!!block;n#agregarItemCarrito#0;n#FacturaService#0" />
+            <element signature="n#!!block;n#restarItemCarrito#0;n#FacturaService#0" />
+            <element signature="n#!!block;n#generarTotal#0;n#FacturaService#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/examen-1er-bim/examen1/src/app/rutas/ruta-comprar/ruta-comprar.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="99" column="48" selection-start-line="99" selection-start-column="20" selection-end-line="99" selection-end-column="48" />
+        <state relative-caret-position="280">
+          <caret line="70" column="19" lean-forward="true" selection-start-line="70" selection-start-column="19" selection-end-line="70" selection-end-column="19" />
           <folding>
             <element signature="n#div#0;n#div#0;n#!!top" />
             <element signature="n#form#0;n#div#0;n#div#0;n#!!top" />
@@ -748,12 +601,164 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examen-1er-bim/examen1/src/app/rutas/ruta-revisar/ruta-revisar.component.html">
+    <entry file="file://$PROJECT_DIR$/examen-1er-bim/examen1/src/app/interfaces/auto.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="22" column="48" lean-forward="true" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
+        <state relative-caret-position="20">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/examen-1er-bim/examen1/src/app/rutas/ruta-gestionar/gestionar-autos/gestionar-autos/gestionar-autos.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examen-1er-bim/examen1/src/app/rutas/ruta-gestionar/gestionar-autos/gestionar-autos/gestionar-autos.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-backend/tienda-backend/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13">
+          <caret line="8" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-backend/tienda-backend/api/models/Usuario.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-backend/tienda-backend/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.angulardoc.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-backend/tienda-backend/config/datastores.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="56" column="2" lean-forward="true" selection-start-line="56" selection-start-column="2" selection-end-line="56" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-backend/tienda-frontend/src/app/app.component.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-backend/tienda-frontend/src/app/app.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-backend/tienda-frontend/src/environments/environment.prod.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" column="19" lean-forward="true" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-backend/tienda-frontend/src/environments/environment.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="30" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="30" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-backend/tienda-frontend/src/app/servicios/http/http-sails-principal.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="26" column="26" lean-forward="true" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+          <folding>
+            <element signature="e#90#138#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-backend/tienda-frontend/src/app/dto/usuario.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-backend/tienda-frontend/src/app/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-backend/tienda-frontend/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-backend/tienda-frontend/src/app/servicios/http/usuario-http.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-backend/tienda-backend/config/security.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-backend/tienda-frontend/src/app/app-routing.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
