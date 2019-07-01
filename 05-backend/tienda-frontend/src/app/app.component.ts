@@ -2,6 +2,9 @@ import {Component, OnInit} from '@angular/core';
 import {HttpClient} from "@angular/common/http";
 import {environment} from "src/environments/environment";
 import {UsuarioHttpService} from "./servicios/http/usuario-http.service";
+import {ProductoHttpService} from "./servicios/http/producto-http.service";
+import {ProductoUsuarioHttpService} from "./servicios/http/producto-usuario-http.service";
+import {collectExternalReferences} from "@angular/compiler";
 
 @Component({
   selector: 'app-root',
@@ -12,13 +15,37 @@ export class AppComponent implements OnInit {
   title = 'tienda-frontend';
 
   constructor(private  readonly _HttpCliente: HttpClient,
-              private readonly _ususarioHttpService:UsuarioHttpService) {
+              private readonly _ususarioHttpService:UsuarioHttpService,
+              private readonly _productoHttpService:ProductoHttpService,
+              private readonly _productoUsuarioHttpService: ProductoUsuarioHttpService) {
 
   }
 
   ngOnInit() {
 
-    const usuarioCrear$ = this._ususarioHttpService.crear({nombre: 'Desde', apellido: 'Observable'});
+    const usuarioCrear$ = this._ususarioHttpService.crear({
+      nombre: 'Desde',
+      apellido: 'Observable',
+      cedula: '1804535233',
+      correo: 'alex@mail.com',
+      estaCasado: true,
+      sueldo: 100,
+      tipoUsuario: 'pendiente',
+      username: 'sweetraare'
+    });
+
+    const productoCrear$ = this._productoHttpService.crear({
+      codigo: 'codigo',
+      nombre: 'producto'
+
+    });
+
+    const productoUsuarioCrear$ = this._productoUsuarioHttpService.crear({
+      cantidad: 10,
+      fkProducto: 1,
+      fkUsuario: 1
+
+    });
 
     usuarioCrear$.subscribe(
       (nuevoUsuario) => {
@@ -26,6 +53,24 @@ export class AppComponent implements OnInit {
       },
       (error) => {
         console.log(error);
+      }
+    );
+
+    productoCrear$.subscribe(
+      (nuevoProducto) => {
+        console.log(nuevoProducto);
+      },
+      (error) => {
+        console.log(error);
+      }
+    );
+
+    productoUsuarioCrear$.subscribe(
+      (nuevoUsuarioProducto) => {
+        console.log(nuevoUsuarioProducto);
+      },
+      (error1) => {
+        console.log(error1);
       }
     );
 
