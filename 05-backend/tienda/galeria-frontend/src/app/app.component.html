@@ -1,0 +1,71 @@
+<pre>
+  {{ this.listaCarrito | json }}
+</pre>
+
+<div *ngFor="let producto of listaProductos" >
+  <h3> {{producto.nombre}} </h3>
+
+  <form *ngFor="let tiendaProducto of producto.arregloTiendaProductos">
+    <h4>
+       idTiendaProducto: {{tiendaProducto.id}}
+    </h4>
+    <h4>
+      fkProducto: {{tiendaProducto.fkProducto}}
+    </h4>
+    <h4>
+      fkTienda: {{tiendaProducto.fkTienda}}
+    </h4>
+
+    <label for="cantidad">Cantidad</label>
+    <input id="cantidad"
+           required
+           name="cantidad" type="number" [(ngModel)]="cantidad" #vtCantidad = "ngModel"  >
+
+    <label for="fecha">Fecha Compra</label>
+    <input id="fecha"
+           required
+           name="fecha" type="string" [(ngModel)]="fecha" #vtFecha = "ngModel"  >
+
+
+    <button (click)="agregarCarrito(vtFecha.value, vtCantidad.value, tiendaProducto.id)"  >
+      Agregar al Carrito!
+    </button>
+
+
+  </form>
+
+</div>
+
+
+<!--<form *ngFor="let producto of listaProductos" >
+
+  <h3> {{producto.nombre}} </h3>
+
+  <h3> {{ producto.arregloTiendaProductos[0].id |json }} </h3>
+
+  <label for="cantidad">Cantidad</label>
+  <input id="cantidad"
+         required
+         name="cantidad" type="number" [(ngModel)]="cantidad" #vtCantidad = "ngModel"  >
+  <button (click)="agregarCarrito(producto.id, vtCantidad.value)"  >
+    Agregar al Carrito!
+  </button>
+
+</form>-->
+<!--
+
+<div *ngFor="let producto of listaProductos" >
+
+  <h3> {{producto.nombre}} </h3>
+
+  <h3> {{ producto.arregloTiendaProductos[0].id |json }} </h3>
+
+  <label for="cantidad1"> Cantidad </label>
+  <input id="cantidad1" name="cantidad">
+
+  <button (click)="agregarCarrito(producto.id, cantidad.value)"  >
+    Agregar al Carrito!
+  </button>
+
+</div>
+-->
