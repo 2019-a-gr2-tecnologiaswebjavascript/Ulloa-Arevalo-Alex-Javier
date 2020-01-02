@@ -1,0 +1,32 @@
+<ion-content >
+
+<ion-text color="primary">
+  <h1>Bienvenido al mejor Examen de JS!</h1>
+</ion-text>
+
+  <ion-text color="secondary">
+    <h4>Hecho por Alex Ulloa</h4>
+  </ion-text>
+
+  <ion-text color="tertiary">
+    <h3> Logeate para comenzar... </h3>
+  </ion-text>
+<ion-item>
+  <ion-label position="floating">Correo</ion-label>
+  <ion-input type="email" id="correo"
+             [(ngModel)]="correo"></ion-input>
+</ion-item>
+
+
+<ion-item>
+  <ion-label position="floating">Contraseña</ion-label>
+  <ion-input type="password"  id="password"
+             [(ngModel)]="password"></ion-input>
+</ion-item>
+
+  <ion-button (click)="ingresar()" >
+    Ingresar
+    <ion-icon slot="start" name="arrow-dropright-circle"></ion-icon>
+  </ion-button>
+
+</ion-content>

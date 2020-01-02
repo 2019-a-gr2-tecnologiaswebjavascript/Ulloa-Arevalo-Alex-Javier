@@ -1,0 +1,70 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Conductores
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-item>
+    <ion-label position="fixed">Buscar</ion-label>
+    <ion-input [(ngModel)]="nombre"></ion-input>
+    <ion-button slot="end" (click)="buscar()">
+      <ion-icon name="search" slot="icon-only"></ion-icon>
+    </ion-button>
+  </ion-item>
+
+  <div>
+    <ion-button (click)="crearConductor()">
+      Crear
+      <ion-icon name="search" slot="end"></ion-icon>
+    </ion-button>
+  </div>
+
+  <div>
+    <ion-grid>
+      <ion-row>
+        <ion-col>
+          Id
+        </ion-col>
+        <ion-col>
+          Nombre
+        </ion-col>
+        <ion-col>
+          Apellido
+        </ion-col>
+        <ion-col>
+          Licencia?
+        </ion-col>
+        <ion-col>
+          Acciones
+        </ion-col>
+      </ion-row>
+      <ion-row *ngFor=" let conductor of this.listaConductoresVisible">
+        <ion-col>
+          {{conductor.id}}
+        </ion-col>
+        <ion-col>
+          {{conductor.nombres}}
+        </ion-col>
+        <ion-col>
+          {{conductor.apellidos}}
+        </ion-col>
+        <ion-col>
+          <ion-checkbox [checked]="conductor.licenciaValida"></ion-checkbox>
+        </ion-col>
+        <ion-col>
+          <ion-button (click)="eliminar(conductor.id)">
+            <ion-icon name="trash" slot="icon-only" ></ion-icon>
+          </ion-button>
+          <ion-button (click)="autos(conductor)">
+            <ion-icon name="more" slot="icon-only" ></ion-icon>
+          </ion-button>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+
+</ion-content>

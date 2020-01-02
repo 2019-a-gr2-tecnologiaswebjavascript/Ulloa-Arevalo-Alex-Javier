@@ -1,0 +1,27 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Revisar Compras
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+<ion-searchbar animated="true"  [(ngModel)]="busqueda" (ionInput)="consultar($event)" (click)="actualizar()" >
+
+  </ion-searchbar>
+  <div>
+    {{busqueda}}
+  </div>
+
+  <ion-list lines="none">
+    <ion-list-header>
+      Facturas
+    </ion-list-header>
+    <ion-item *ngFor="let factura of listaFacturasVisible">
+      <ion-label> {{factura.cliente}} </ion-label>
+      <ion-label> {{factura.total}} </ion-label>
+    </ion-item>
+  </ion-list>
+
+</ion-content>

@@ -1,0 +1,74 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Administracion de Conductor
+    </ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+<!--    <ion-button (click)="regresar()">-->
+<!--      Regresar.-->
+<!--    </ion-button>-->
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <form
+          #formulario="ngForm"
+          novalidate
+          (submit)="guardarConductor(formulario)"
+  >
+
+    <ion-item>
+
+      <ion-label for="nombre"> Nombres </ion-label>
+      <ion-input id="nombre"
+                 required
+                 minlength="3"
+                 pattern="[A-Z][a-z]*"
+                 name="nombre" type="text"
+                 [(ngModel)]="nombre">
+        </ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label for="apellido"> Apellidos </ion-label>
+      <ion-input id="apellido"
+             required
+             minlength="3"
+             pattern="[A-Z][a-z]*"
+
+             name="apellido" type="text"
+             [(ngModel)]="apellido"
+      >
+      </ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label for="fechaNacimiento">Fecha Nacimiento</ion-label>
+        <ion-input type="date" id="fechaNacimiento"
+               name="fechaNacimiento"
+               required
+               [(ngModel)]="fechaNacimiento" >
+        </ion-input>
+    </ion-item>
+
+    <ion-item >
+      <ion-label for="numeroAutos"> Numero de Autos </ion-label>
+      <ion-input id="numeroAutos"
+             min="0"
+             max="5"
+             name="numeroAutos" type="number"
+             [(ngModel)]="numeroAutos">
+      </ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label for="licenciaValida"> Licencia Valida </ion-label>
+      <ion-checkbox checked="true" id="licenciaValida"  name="licenciaValida" [(ngModel)]="licenciaValida"></ion-checkbox>
+    </ion-item>
+
+    <ion-button type="submit" class="btn btn-outline-success"  > Agregar </ion-button>
+
+  </form>
+</ion-content>

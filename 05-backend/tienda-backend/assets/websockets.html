@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Websockets</title>
+</head>
+<body>
+
+  <script src="dependencies/sails.io.js" ></script>
+
+  <script>
+    // io.sails.url = 'https://192.168.0.120:1337';
+    /*const socketConexion = io.sails.connect();
+
+    socketConexion.on(
+      'connect', //evento llamado 'conect'
+      () => { // se enejuta cuando se emite el evento de arriba
+        console.log("Socket conectado");
+        socketConexion.post(
+          '/temperatura',
+          {
+            medicion: 10.1
+          },
+          (respuestaTemperatura) => { // Respuesta
+            console.log(respuestaTemperatura);
+          }
+        )
+    }
+    );
+
+    socketConexion.on(
+      'disconnect', //evento llamado 'conect'
+      () => { // se enejuta cuando se emite el evento de arriba
+        console.log("Socket desconectado :(");
+      }
+    );
+
+    socketConexion.on(
+      'temperatura', //nombre del modelo de la capeta api
+      (mensaje) => { // se enejuta cuando se emite el evento de arriba
+        console.log("Mensaje", mensaje );
+      }
+    );*/
+
+    io.socket.post(
+      '/temperatura', // url
+      {  // datos
+        medicion:12.094
+      },
+      (respuestaTemperatura) => { // Respuesta
+        console.log('Respuesta:', respuestaTemperatura);
+      });
+
+    io.socket.get('/temperatura',
+      (respuestaTemperatura) => { // Respuesta
+        console.log('Respuesta:', respuestaTemperatura);
+      });
+
+
+    io.socket.on(
+      'temperatura',  // Nombre del Modelo (Temperatura)
+      (mensaje) => {
+        console.log("Mensaje: ", mensaje);
+      });
+
+
+  </script>
+
+</body>
+</html>

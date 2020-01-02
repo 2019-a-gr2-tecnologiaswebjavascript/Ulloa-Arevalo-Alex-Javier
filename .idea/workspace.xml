@@ -2,11 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6e042c1-ad6a-4634-89bf-2dc70f5326fd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/05-backend/tienda-backend/assets/websockets.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examen-2do-bim/frontend/examen/src/app/dto/auto.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examen-2do-bim/frontend/examen/src/app/dto/carritoCompras.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examen-2do-bim/frontend/examen/src/app/dto/conductor.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examen-2do-bim/frontend/examen/src/app/dto/detalleFactura.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examen-2do-bim/frontend/examen/src/app/dto/factura.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examen-2do-bim/frontend/examen/src/app/dto/usuario.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examen-2do-bim/frontend/examen/src/app/servicios/http/auto-http-service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examen-2do-bim/frontend/examen/src/app/servicios/http/conductor-http-service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examen-2do-bim/frontend/examen/src/app/servicios/http/detalle-factura-http-service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examen-2do-bim/frontend/examen/src/app/servicios/http/factura-http-service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examen-2do-bim/frontend/examen/src/app/servicios/http/http-sails-principal.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examen-2do-bim/frontend/examen/src/app/servicios/http/usuario-http-service.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-backend/tienda-backend/config/datastores.js" beforeDir="false" afterPath="$PROJECT_DIR$/05-backend/tienda-backend/config/datastores.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-backend/tienda-backend/config/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/05-backend/tienda-backend/config/routes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-backend/tienda-backend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/05-backend/tienda-backend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-backend/tienda-backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/05-backend/tienda-backend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-backend/tienda-frontend/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/05-backend/tienda-frontend/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-backend/tienda-frontend/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/05-backend/tienda-frontend/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-backend/tienda-frontend/src/app/servicios/http/http-sails-principal.ts" beforeDir="false" afterPath="$PROJECT_DIR$/05-backend/tienda-frontend/src/app/servicios/http/http-sails-principal.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-backend/tienda-frontend/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/05-backend/tienda-frontend/src/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,71 +34,7 @@
     <favorites_list name="Ulloa-Arevalo-Alex-Javier" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/05-backend/tienda-iot/config/bootstrap.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="28" column="29" lean-forward="true" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/05-backend/tienda-backend/config/routes.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1">
-              <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/05-backend/tienda-backend/api/controllers/LedController.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/05-backend/tienda-iot/api/controllers/SensorController.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="12" column="64" selection-start-line="12" selection-start-column="64" selection-end-line="12" selection-end-column="64" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/05-backend/tienda-iot/config/routes.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/05-backend/tienda-backend/api/models/Temperatura.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/05-backend/tienda-backend/config/datastores.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="54" selection-start-line="54" selection-end-line="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -122,6 +71,8 @@
       <find>busq</find>
       <find>requiered</find>
       <find>oninit</find>
+      <find>app</find>
+      <find>holi</find>
     </findStrings>
     <replaceStrings>
       <replace>fechaNacimiento</replace>
@@ -136,62 +87,63 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/examen-1er-bim/examen1/src/app/rutas/ruta-gestionar/gestionar-autos/gestionar-autos/gestionar-autos.component.ts" />
-        <option value="$PROJECT_DIR$/examen-1er-bim/examen1/src/app/interfaces/auto.ts" />
-        <option value="$PROJECT_DIR$/05-backend/tienda-frontend/src/environments/environment.ts" />
-        <option value="$PROJECT_DIR$/05-backend/tienda-frontend/src/environments/environment.prod.ts" />
-        <option value="$PROJECT_DIR$/05-backend/tienda-backend/config/security.js" />
-        <option value="$PROJECT_DIR$/05-backend/tienda-frontend/src/app/servicios/http/http-sails-principal.ts" />
-        <option value="$PROJECT_DIR$/05-backend/tienda-frontend/src/app/servicios/http/usuario-http.service.ts" />
-        <option value="$PROJECT_DIR$/05-backend/tienda-backend/api/models/Usuario.ts" />
-        <option value="$PROJECT_DIR$/05-backend/tienda-frontend/src/app/dto/producto.ts" />
-        <option value="$PROJECT_DIR$/05-backend/tienda-frontend/src/app/dto/producto-usuario.ts" />
-        <option value="$PROJECT_DIR$/05-backend/tienda-frontend/src/app/app.module.ts" />
-        <option value="$PROJECT_DIR$/05-backend/tienda-frontend/src/app/dto/usuario.ts" />
-        <option value="$PROJECT_DIR$/05-backend/tienda-backend/api/models/Producto.js" />
-        <option value="$PROJECT_DIR$/05-backend/tienda-frontend/src/app/app.component.ts" />
-        <option value="$PROJECT_DIR$/05-backend/tienda-frontend/src/app/servicios/http/producto-usuario-http.service.ts" />
-        <option value="$PROJECT_DIR$/01-Angular/galeria/backend-galeria/app.js" />
-        <option value="$PROJECT_DIR$/01-Angular/galeria/src/app/app.component.html" />
-        <option value="$PROJECT_DIR$/05-backend/tienda-backend/api/models/ProductoUsuario.js" />
-        <option value="$PROJECT_DIR$/01-Angular/galeria/backend-galeria/api/models/ItemCarritoCompras.js" />
-        <option value="$PROJECT_DIR$/01-Angular/galeria/backend-galeria/api/models/TiendaCarritoCompras.js" />
-        <option value="$PROJECT_DIR$/01-Angular/galeria/src/environments/environment.ts" />
-        <option value="$PROJECT_DIR$/01-Angular/galeria/src/app/app.module.ts" />
-        <option value="$PROJECT_DIR$/01-Angular/galeria/src/app/app.component.ts" />
-        <option value="$PROJECT_DIR$/01-Angular/galeria/src/app/servicios/item-carrito-compras.ts" />
-        <option value="$PROJECT_DIR$/05-backend/tienda/galeria-backend/api/models/Producto.js" />
-        <option value="$PROJECT_DIR$/05-backend/tienda/galeria-backend/api/models/TiendaProducto.js" />
-        <option value="$PROJECT_DIR$/05-backend/tienda/galeria-backend/api/models/Tienda.js" />
-        <option value="$PROJECT_DIR$/05-backend/tienda/galeria-backend/api/models/Carrito.js" />
-        <option value="$PROJECT_DIR$/05-backend/tienda/galeria-frontend/src/app/dto/tienda.ts" />
-        <option value="$PROJECT_DIR$/05-backend/tienda/galeria-frontend/src/app/dto/tienda-producto.ts" />
-        <option value="$PROJECT_DIR$/05-backend/tienda-frontend/src/app/dto/carrito.ts" />
-        <option value="$PROJECT_DIR$/05-backend/tienda/galeria-frontend/src/environments/environment.ts" />
-        <option value="$PROJECT_DIR$/05-backend/tienda/galeria-frontend/src/app/servicios/http/carrito-http.service.ts" />
-        <option value="$PROJECT_DIR$/05-backend/tienda/galeria-frontend/src/app/servicios/http/producto-http.service.ts" />
-        <option value="$PROJECT_DIR$/05-backend/tienda/galeria-frontend/src/app/servicios/http/tienda-producto-http.service.ts" />
-        <option value="$PROJECT_DIR$/05-backend/tienda/galeria-frontend/src/app/servicios/http/tienda-http.service.ts" />
-        <option value="$PROJECT_DIR$/05-backend/tienda/galeria-frontend/src/app/dto/producto.ts" />
-        <option value="$PROJECT_DIR$/05-backend/tienda-frontend/src/app/servicios/http/producto-http.service.ts" />
-        <option value="$PROJECT_DIR$/05-backend/tienda/galeria-backend/config/security.js" />
-        <option value="$PROJECT_DIR$/05-backend/tienda/galeria-frontend/src/app/app.module.ts" />
-        <option value="$PROJECT_DIR$/05-backend/tienda/galeria-frontend/src/app/dto/carrito.ts" />
-        <option value="$PROJECT_DIR$/05-backend/tienda/galeria-frontend/src/app/app.component.ts" />
-        <option value="$PROJECT_DIR$/05-backend/tienda/galeria-frontend/src/app/app.component.html" />
-        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.html" />
-        <option value="$PROJECT_DIR$/05-backend/tienda-backend/api/models/Temperatura.js" />
-        <option value="$PROJECT_DIR$/05-backend/tienda-backend/config/datastores.js" />
-        <option value="$PROJECT_DIR$/05-backend/tienda-backend/config/routes.js" />
-        <option value="$PROJECT_DIR$/05-backend/tienda-backend/api/controllers/LedController.js" />
-        <option value="$PROJECT_DIR$/05-backend/tienda-iot/api/controllers/SensorController.js" />
         <option value="$PROJECT_DIR$/05-backend/tienda-iot/config/bootstrap.js" />
         <option value="$PROJECT_DIR$/05-backend/tienda-iot/config/routes.js" />
+        <option value="$PROJECT_DIR$/05-backend/tienda-backend/assets/websockets.html" />
+        <option value="$PROJECT_DIR$/05-backend/tienda-frontend/src/index.html" />
+        <option value="$PROJECT_DIR$/05-backend/tienda-frontend/src/app/app.component.ts" />
+        <option value="$PROJECT_DIR$/05-backend/tienda-frontend/src/app/app.component.html" />
+        <option value="$PROJECT_DIR$/examen-2do-bim/backend/api/models/Conductor.js" />
+        <option value="$PROJECT_DIR$/examen-2do-bim/frontend/examen/src/app/autenticacion/login/login.component.html" />
+        <option value="$PROJECT_DIR$/examen-2do-bim/frontend/examen/src/app/servicios/guards/esta-logeado.service.ts" />
+        <option value="$PROJECT_DIR$/examen-2do-bim/frontend/examen/src/app/dto/conductor.ts" />
+        <option value="$PROJECT_DIR$/examen-2do-bim/frontend/examen/src/environments/environment.ts" />
+        <option value="$PROJECT_DIR$/examen-2do-bim/frontend/examen/src/app/servicios/http/usuario-http-service.ts" />
+        <option value="$PROJECT_DIR$/examen-2do-bim/frontend/examen/src/app/servicios/autenticacion/login.service.ts" />
+        <option value="$PROJECT_DIR$/examen-2do-bim/frontend/examen/src/app/servicios/http/conductor-http-service.ts" />
+        <option value="$PROJECT_DIR$/examen-2do-bim/frontend/examen/src/app/servicios/http/auto-http-service.ts" />
+        <option value="$PROJECT_DIR$/examen-2do-bim/frontend/examen/src/app/servicios/administracion/conductor.service.ts" />
+        <option value="$PROJECT_DIR$/05-backend/tienda-frontend/src/app/servicios/http/http-sails-principal.ts" />
+        <option value="$PROJECT_DIR$/examen-2do-bim/frontend/examen/src/app/servicios/http/http-sails-principal.ts" />
+        <option value="$PROJECT_DIR$/examen-2do-bim/backend/config/security.js" />
+        <option value="$PROJECT_DIR$/examen-2do-bim/backend/config/datastores.js" />
+        <option value="$PROJECT_DIR$/examen-2do-bim/backend/api/models/DetalleFactura.js" />
+        <option value="$PROJECT_DIR$/examen-2do-bim/backend/api/models/Factura.js" />
+        <option value="$PROJECT_DIR$/examen-2do-bim/backend/api/models/Usuario.js" />
+        <option value="$PROJECT_DIR$/examen-2do-bim/frontend/examen/src/app/dto/detalleFactura.ts" />
+        <option value="$PROJECT_DIR$/examen-2do-bim/backend/api/models/Auto.js" />
+        <option value="$PROJECT_DIR$/examen-2do-bim/frontend/examen/src/app/dto/auto.ts" />
+        <option value="$PROJECT_DIR$/examen-2do-bim/backend/.tmp/localDiskDb/auto.db" />
+        <option value="$PROJECT_DIR$/examen-2do-bim/frontend/examen/src/app/dto/usuario.ts" />
+        <option value="$PROJECT_DIR$/examen-2do-bim/frontend/examen/src/app/administracion/auto/crear-auto/crear-auto.component.ts" />
+        <option value="$PROJECT_DIR$/examen-2do-bim/frontend/examen/src/app/administracion/auto/crear-auto/crear-auto.component.html" />
+        <option value="$PROJECT_DIR$/examen-2do-bim/frontend/examen/src/app/administracion/auto/auto.component.ts" />
+        <option value="$PROJECT_DIR$/examen-2do-bim/frontend/examen/src/app/administracion/auto/auto.component.html" />
+        <option value="$PROJECT_DIR$/examen-2do-bim/frontend/examen/src/app/dto/carritoCompras.ts" />
+        <option value="$PROJECT_DIR$/examen-2do-bim/frontend/examen/src/app/tab2/tab2.page.scss" />
+        <option value="$PROJECT_DIR$/examen-2do-bim/frontend/examen/src/app/tab2/tab2.page.html" />
+        <option value="$PROJECT_DIR$/examen-2do-bim/frontend/examen/src/app/servicios/http/detalle-factura-http-service.ts" />
+        <option value="$PROJECT_DIR$/examen-2do-bim/frontend/examen/src/app/servicios/http/factura-http-service.ts" />
+        <option value="$PROJECT_DIR$/examen-2do-bim/frontend/examen/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/examen-2do-bim/frontend/examen/src/app/dto/factura.ts" />
+        <option value="$PROJECT_DIR$/examen-2do-bim/frontend/examen/src/app/autenticacion/login/login.component.ts" />
+        <option value="$PROJECT_DIR$/examen-2do-bim/frontend/examen/src/app/tabs/tabs.page.html" />
+        <option value="$PROJECT_DIR$/examen-2do-bim/frontend/examen/src/app/tabs/tabs.page.ts" />
+        <option value="$PROJECT_DIR$/examen-2do-bim/frontend/examen/src/app/tab2/tab2.page.ts" />
+        <option value="$PROJECT_DIR$/examen-2do-bim/frontend/examen/src/app/tab1/tab1.page.html" />
+        <option value="$PROJECT_DIR$/examen-2do-bim/frontend/examen/src/app/administracion/conductor/conductor.component.ts" />
+        <option value="$PROJECT_DIR$/examen-2do-bim/frontend/examen/src/app/administracion/conductor/conductor.component.html" />
+        <option value="$PROJECT_DIR$/examen-2do-bim/frontend/examen/src/app/tab3/tab3.page.ts" />
+        <option value="$PROJECT_DIR$/examen-2do-bim/frontend/examen/src/app/tab3/tab3.page.html" />
+        <option value="$PROJECT_DIR$/examen-2do-bim/frontend/examen/src/app/tab1/tab1.page.ts" />
+        <option value="$PROJECT_DIR$/examen-2do-bim/frontend/examen/src/app/app-routing.module.ts" />
+        <option value="$PROJECT_DIR$/examen-2do-bim/frontend/examen/src/app/tabs/tabs.router.module.ts" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="960" />
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
     <option name="width" value="960" />
     <option name="height" value="1030" />
   </component>
@@ -204,28 +156,6 @@
       <pane id="ProjectPane">
         <subPane>
           <expand>
-            <path>
-              <item name="Ulloa-Arevalo-Alex-Javier" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Ulloa-Arevalo-Alex-Javier" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Ulloa-Arevalo-Alex-Javier" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Ulloa-Arevalo-Alex-Javier" type="462c0819:PsiDirectoryNode" />
-              <item name="05-backend" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Ulloa-Arevalo-Alex-Javier" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Ulloa-Arevalo-Alex-Javier" type="462c0819:PsiDirectoryNode" />
-              <item name="05-backend" type="462c0819:PsiDirectoryNode" />
-              <item name="tienda-iot" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Ulloa-Arevalo-Alex-Javier" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Ulloa-Arevalo-Alex-Javier" type="462c0819:PsiDirectoryNode" />
-              <item name="05-backend" type="462c0819:PsiDirectoryNode" />
-              <item name="tienda-iot" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
             <path>
               <item name="Ulloa-Arevalo-Alex-Javier" type="b2602c69:ProjectViewProjectNode" />
               <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
@@ -242,25 +172,26 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Angular2Html" />
     <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/05-backend/tienda/galeria-frontend/src/app/servicios/http" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/examen-2do-bim/frontend/examen/src/app/servicios/http" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
-    <property name="ts.external.directory.path" value="C:\Users\ajua_\OneDrive\Documents\GitHub\Ulloa-Arevalo-Alex-Javier\02-ionic\go-uio\go-uio\node_modules\typescript\lib" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="ts.external.directory.path" value="C:\Users\ajua_\OneDrive\Documents\GitHub\Ulloa-Arevalo-Alex-Javier\05-backend\tienda-frontend\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ajua_\OneDrive\Documents\GitHub\Ulloa-Arevalo-Alex-Javier\01-Angular\galeria\e2e" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ajua_\OneDrive\Documents\GitHub\Ulloa-Arevalo-Alex-Javier\examen-2do-bim\frontend\examen\src\app\servicios\http" />
       <recent name="C:\Users\ajua_\OneDrive\Documents\GitHub\Ulloa-Arevalo-Alex-Javier\05-backend\tienda\galeria-frontend\src\app\servicios\http" />
       <recent name="C:\Users\ajua_\OneDrive\Documents\GitHub\Ulloa-Arevalo-Alex-Javier\01-Angular\galeria\src\app\dto" />
       <recent name="C:\Users\ajua_\OneDrive\Documents\GitHub\Ulloa-Arevalo-Alex-Javier\01-Angular\galeria\src\app\servicios" />
       <recent name="C:\Users\ajua_\OneDrive\Documents\GitHub\Ulloa-Arevalo-Alex-Javier\05-backend\tienda-frontend\src\app\servicios\http" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\ajua_\OneDrive\Documents\GitHub\Ulloa-Arevalo-Alex-Javier\01-Angular\galeria\e2e" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -307,12 +238,24 @@
       <workItem from="1561904641363" duration="1315000" />
       <workItem from="1562010259941" duration="5633000" />
       <workItem from="1562561429631" duration="1609000" />
-      <workItem from="1562588688395" duration="16327000" />
+      <workItem from="1562588688395" duration="16451000" />
+      <workItem from="1563224824065" duration="5933000" />
+      <workItem from="1564030056128" duration="592000" />
+      <workItem from="1564089668086" duration="1231000" />
+      <workItem from="1564121199565" duration="1315000" />
+      <workItem from="1564151666899" duration="30525000" />
+      <workItem from="1564271178790" duration="1220000" />
+      <workItem from="1564287291099" duration="756000" />
+      <workItem from="1564342863940" duration="20916000" />
+      <workItem from="1564433708429" duration="6876000" />
+      <workItem from="1564521931815" duration="513000" />
+      <workItem from="1564522693495" duration="1597000" />
+      <workItem from="1569881994097" duration="195000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="171367000" />
+    <option name="totallyTimeSpent" value="243160000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -328,24 +271,45 @@
     <layout>
       <window_info id="Structure" order="0" sideWeight="0.5019763" side_tool="true" weight="0.24917382" />
       <window_info id="Favorites" order="1" sideWeight="0.5019763" side_tool="true" weight="0.24917382" />
-      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.49802372" visible="true" weight="0.2295302" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.49802372" visible="true" weight="0.23087248" />
       <window_info anchor="bottom" id="TypeScript" order="0" weight="0.32831737" />
       <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" weight="0.3266129" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.3252688" />
       <window_info anchor="bottom" id="Run" order="3" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="7" weight="0.32831737" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3293011" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.36424732" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3293011" />
+      <window_info anchor="bottom" id="TODO" order="8" weight="0.3266129" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.35752687" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24966443" />
       <window_info anchor="right" id="Key Promoter X" order="3" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Structure" order="0" sideWeight="0.5019763" side_tool="true" weight="0.24917382" />
+      <window_info id="Favorites" order="1" sideWeight="0.5019763" side_tool="true" weight="0.24917382" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.49802372" visible="true" weight="0.23087248" />
+      <window_info anchor="bottom" id="TypeScript" order="0" weight="0.32831737" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.3252688" />
+      <window_info anchor="bottom" id="Run" order="3" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3293011" />
+      <window_info anchor="bottom" id="TODO" order="8" weight="0.3266129" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.35752687" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24966443" />
+      <window_info anchor="right" id="Key Promoter X" order="3" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -396,426 +360,446 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/01-Angular/galeria/src/app/app.module.ts">
+    <entry file="file://$PROJECT_DIR$/examen-2do-bim/frontend/examen/src/app/dto/factura" />
+    <entry file="file://$PROJECT_DIR$/examen-2do-bim/backend/api/models/DetalleFactura.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#58#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="327">
+          <caret line="22" column="10" selection-start-line="10" selection-start-column="4" selection-end-line="22" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/05-backend/tienda-frontend/src/app/servicios/http/usuario-http.service.ts">
+    <entry file="file://$PROJECT_DIR$/examen-2do-bim/frontend/examen/src/app/dto/detalleFactura.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
-          <folding>
-            <element signature="e#0#58#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01-Angular/galeria/node_modules/@angular/common/http/src/client.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="58" column="21" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01-Angular/galeria/src/app/servicios/http-sails-principal.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="40" lean-forward="true" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
-          <folding>
-            <element signature="e#90#138#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01-Angular/galeria/src/app/app.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="24" column="57" selection-start-line="24" selection-start-column="57" selection-end-line="24" selection-end-column="57" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01-Angular/galeria/src/environments/environment.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="30" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01-Angular/galeria/src/app/servicios/item-carrito-compras.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="50" selection-start-column="50" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-backend/tienda-frontend/src/app/servicios/http/producto-usuario-http.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="13" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#58#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-backend/tienda-backend/api/models/Producto.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="23" column="5" selection-start-line="20" selection-start-column="4" selection-end-line="23" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-backend/tienda/galeria-backend/api/models/Carrito.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-backend/tienda/galeria-backend/api/models/TiendaProducto.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="14" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-backend/tienda-backend/api/models/ProductoUsuario.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-backend/tienda-frontend/src/app/servicios/http/http-sails-principal.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="26" lean-forward="true" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-backend/tienda/galeria-backend/api/models/Producto.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-          <folding>
-            <element signature="e#463#530#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-backend/tienda-frontend/src/app/dto/producto.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-backend/tienda/galeria-backend/api/models/Tienda.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-backend/tienda/galeria-frontend/src/app/dto/tienda.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-backend/tienda-frontend/src/app/dto/producto-usuario.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="140">
+          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
           <folding>
             <element signature="e#0#34#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/05-backend/tienda-frontend/src/app/dto/carrito.ts">
+    <entry file="file://$PROJECT_DIR$/examen-2do-bim/backend/.tmp/localDiskDb/archive.db">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examen-2do-bim/backend/.tmp/localDiskDb/usuario.db">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examen-2do-bim/frontend/examen/src/app/dto/auto.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="50" lean-forward="true" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
+        <state relative-caret-position="227">
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/05-backend/tienda/galeria-frontend/src/app/dto/tienda-producto.ts">
+    <entry file="file://$PROJECT_DIR$/examen-2do-bim/backend/api/models/Auto.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="33" column="12" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
+          <folding>
+            <element signature="e#224#274#0" />
+            <element signature="e#293#343#0" />
+            <element signature="e#359#409#0" />
+            <element signature="e#425#453#0" />
+            <element signature="e#473#523#0" />
+            <element signature="e#535#585#0" />
+            <element signature="e#599#627#0" />
+            <element signature="e#604#658#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examen-2do-bim/backend/.tmp/localDiskDb/auto.db">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
-          <caret line="1" column="24" lean-forward="true" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/05-backend/tienda-frontend/src/environments/environment.ts">
+    <entry file="file://$PROJECT_DIR$/examen-2do-bim/frontend/examen/src/app/administracion/auto/crear-auto/crear-auto.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="2" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="30" />
+        <state relative-caret-position="520">
+          <caret line="60" column="13" selection-start-line="60" selection-start-column="13" selection-end-line="60" selection-end-column="13" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#ion-item#0;n#form#0;n#ion-content#0;n#!!top" />
+            <element signature="n#ion-item#1;n#form#0;n#ion-content#0;n#!!top" />
+            <element signature="n#ion-item#2;n#form#0;n#ion-content#0;n#!!top" />
+            <element signature="n#ion-item#3;n#form#0;n#ion-content#0;n#!!top" />
+            <element signature="n#ion-item#4;n#form#0;n#ion-content#0;n#!!top" />
+            <element signature="n#ion-item#5;n#form#0;n#ion-content#0;n#!!top" />
+            <element signature="n#ion-item#6;n#form#0;n#ion-content#0;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/05-backend/tienda/galeria-frontend/src/environments/environment.ts">
+    <entry file="file://$PROJECT_DIR$/examen-2do-bim/frontend/examen/src/app/administracion/auto/crear-auto/crear-auto.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+        <state relative-caret-position="337">
+          <caret line="40" column="12" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#0#50#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/05-backend/tienda/galeria-frontend/src/app/servicios/http/carrito-http.service.ts">
+    <entry file="file://$PROJECT_DIR$/examen-2do-bim/frontend/examen/src/app/administracion/auto/auto.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+        <state relative-caret-position="313">
+          <caret line="73" column="44" selection-start-line="73" selection-start-column="44" selection-end-line="73" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examen-2do-bim/frontend/examen/src/app/administracion/auto/auto.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="99" column="48" selection-start-line="99" selection-start-column="48" selection-end-line="99" selection-end-column="48" />
           <folding>
-            <element signature="e#0#58#0" expanded="true" />
+            <element signature="e#0#50#0" expanded="true" />
+            <element signature="n#!!block;n#buscar#0;n#AutoComponent#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/05-backend/tienda/galeria-frontend/src/app/servicios/http/tienda-producto-http.service.ts">
+    <entry file="file://$PROJECT_DIR$/examen-1er-bim/examen1/src/app/servicios/factura/factura.service.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+        <state relative-caret-position="347">
+          <caret line="60" lean-forward="true" selection-start-line="40" selection-start-column="4" selection-end-line="60" />
           <folding>
-            <element signature="e#0#58#0" expanded="true" />
+            <element signature="e#0#43#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/05-backend/tienda/galeria-frontend/src/app/servicios/http/tienda-http.service.ts">
+    <entry file="file://$PROJECT_DIR$/examen-2do-bim/frontend/examen/src/app/app.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examen-2do-bim/frontend/examen/src/app/tab2/tab2.page.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#58#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="100">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/05-backend/tienda-frontend/node_modules/@angular/common/http/src/client.d.ts">
+    <entry file="file://$PROJECT_DIR$/examen-2do-bim/frontend/examen/src/app/dto/carritoCompras.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="58" column="21" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="21" />
+        <state relative-caret-position="80">
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/05-backend/tienda-frontend/src/app/app.module.ts">
+    <entry file="file://$PROJECT_DIR$/examen-2do-bim/frontend/examen/src/app/servicios/http/http-sails-principal.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#58#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="840">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/05-backend/tienda/galeria-frontend/src/app/servicios/http/http-sails-principal.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="e#90#138#0" expanded="true" />
-            <element signature="n#!!block;n#crear#0;n#HttpSailsPrincipal#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-backend/tienda/galeria-frontend/src/app/dto/producto.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-backend/tienda/galeria-frontend/src/app/servicios/http/producto-http.service.ts">
+    <entry file="file://$PROJECT_DIR$/examen-2do-bim/frontend/examen/src/app/servicios/http/auto-http-service.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="9" column="45" lean-forward="true" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
           <folding>
             <element signature="e#0#58#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/05-backend/tienda-frontend/src/app/servicios/http/producto-http.service.ts">
+    <entry file="file://$PROJECT_DIR$/examen-2do-bim/frontend/examen/src/app/servicios/http/conductor-http-service.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="260">
+          <caret line="13" column="1" lean-forward="true" selection-end-line="14" />
           <folding>
             <element signature="e#0#58#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/05-backend/tienda-backend/config/security.js">
+    <entry file="file://$PROJECT_DIR$/examen-2do-bim/frontend/examen/src/app/dto/usuario.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="30" column="2" selection-start-line="30" selection-start-column="2" selection-end-line="34" selection-end-column="2" />
+        <state relative-caret-position="160">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/05-backend/tienda/galeria-backend/config/security.js">
+    <entry file="file://$PROJECT_DIR$/examen-2do-bim/frontend/examen/src/app/servicios/http/factura-http-service.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01-Angular/galeria/src/app/app.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="20" column="18" lean-forward="true" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01-Angular/galeria/src/app/item-galeria/item-galeria.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-backend/tienda/galeria-frontend/angular.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-backend/tienda/galeria-frontend/src/app/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
+        <state relative-caret-position="180">
+          <caret line="9" column="54" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
           <folding>
             <element signature="e#0#58#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/04-formularios/formularios/src/app/app.component.html">
+    <entry file="file://$PROJECT_DIR$/examen-2do-bim/frontend/examen/src/app/servicios/http/detalle-factura-http-service.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="26" column="1" lean-forward="true" selection-start-line="20" selection-start-column="2" selection-end-line="26" selection-end-column="1" />
+        <state relative-caret-position="180">
+          <caret line="9" column="61" selection-start-line="9" selection-start-column="61" selection-end-line="9" selection-end-column="61" />
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/05-backend/tienda-frontend/src/app/app.component.ts">
+    <entry file="file://$PROJECT_DIR$/examen-2do-bim/frontend/examen/src/app/tab2/tab2.page.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="57" lean-forward="true" selection-start-line="42" selection-start-column="4" selection-end-line="57" />
+        <state relative-caret-position="187">
+          <caret line="124" column="48" selection-start-line="124" selection-start-column="48" selection-end-line="124" selection-end-column="48" />
+          <folding>
+            <element signature="n#div#0;n#ion-content#0;n#!!top" />
+            <element signature="n#ion-item#0;n#ion-item-sliding#0;n#ion-row#1;n#ion-grid#0;n#div#0;n#ion-content#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examen-2do-bim/backend/api/models/Factura.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="15" column="10" lean-forward="true" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examen-2do-bim/frontend/examen/src/app/dto/factura.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
           <folding>
             <element signature="e#0#48#0" expanded="true" />
-            <element signature="e#1444#1512#0" />
-            <element signature="e#1569#1613#0" />
-            <element signature="e#1632#1669#0" />
-            <element signature="e#1733#1778#0" />
-            <element signature="e#1797#1834#0" />
-            <element signature="e#1912#1964#0" />
-            <element signature="e#1984#2022#0" />
-            <element signature="e#2180#2217#0" />
-            <element signature="e#2236#2273#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/05-backend/tienda/galeria-frontend/src/app/app.component.ts">
+    <entry file="file://$PROJECT_DIR$/examen-2do-bim/frontend/examen/src/app/autenticacion/login/login.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="74" column="45" selection-start-line="74" selection-start-column="45" selection-end-line="74" selection-end-column="45" />
+        <state relative-caret-position="-124" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examen-2do-bim/frontend/examen/src/app/tab3/tab3.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
           <folding>
-            <element signature="e#0#42#0" expanded="true" />
-            <element signature="e#2259#2296#0" />
+            <element signature="e#0#45#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/05-backend/tienda/galeria-frontend/src/app/app.component.html">
+    <entry file="file://$PROJECT_DIR$/examen-2do-bim/frontend/examen/src/app/servicios/administracion/conductor.service.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+        <state relative-caret-position="340">
+          <caret line="17" column="2" lean-forward="true" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/05-backend/tienda/galeria-frontend/src/app/dto/carrito.ts">
+    <entry file="file://$PROJECT_DIR$/examen-1er-bim/examen1/src/app/servicios/tienda/auto.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examen-1er-bim/examen1/src/app/rutas/ruta-gestionar/gestionar-conductor/crear-conductor/crear-conductor.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-620">
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examen-1er-bim/examen1/src/app/rutas/ruta-gestionar/ruta-gestionar.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7">
+          <caret line="33" column="17" lean-forward="true" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examen-1er-bim/examen1/src/app/rutas/ruta-gestionar/ruta-gestionar.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="22" column="56" selection-start-line="22" selection-start-column="56" selection-end-line="22" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examen-2do-bim/frontend/examen/src/app/tabs/tabs.page.spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examen-2do-bim/frontend/examen/node_modules/@ionic/angular/dist/directives/navigation/ion-router-outlet.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examen-2do-bim/frontend/examen/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="44" column="34" selection-start-line="44" selection-start-column="34" selection-end-line="44" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examen-2do-bim/frontend/examen/src/app/tab1/tab1.page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="44" column="69" selection-start-line="44" selection-start-column="69" selection-end-line="44" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examen-2do-bim/frontend/examen/src/app/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="42" lean-forward="true" selection-start-column="42" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examen-2do-bim/frontend/examen/src/app/app.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examen-2do-bim/frontend/examen/src/app/tabs/tabs.module.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/04-formularios/formularios/src/app/app.module.ts">
+    <entry file="file://$PROJECT_DIR$/examen-2do-bim/frontend/examen/src/app/tabs/tabs.page.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="15" lean-forward="true" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+        <state relative-caret-position="60">
+          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examen-2do-bim/frontend/examen/src/app/administracion/conductor/conductor.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
           <folding>
-            <element signature="e#0#58#0" expanded="true" />
+            <element signature="n#ion-item#0;n#form#0;n#ion-content#0;n#!!top" />
+            <element signature="n#ion-item#1;n#form#0;n#ion-content#0;n#!!top" />
+            <element signature="n#ion-item#3;n#form#0;n#ion-content#0;n#!!top" />
+            <marker date="1564455494220" expanded="true" signature="100:187" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.html">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/examen-2do-bim/frontend/examen/src/app/administracion/conductor/conductor.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="44" column="65" selection-start-line="44" selection-start-column="65" selection-end-line="44" selection-end-column="65" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/05-backend/tienda-backend/api/models/Temperatura.js">
+    <entry file="file://$PROJECT_DIR$/examen-2do-bim/frontend/examen/src/app/tab3/tab3.page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examen-2do-bim/frontend/examen/src/app/tabs/tabs.page.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examen-2do-bim/frontend/examen/src/app/tab1/tab1.page.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="32" column="34" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+            <element signature="n#!!block;n#eliminar#0;n#Tab1Page#0" />
+            <element signature="n#!!block;n#buscar#0;n#Tab1Page#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examen-2do-bim/frontend/examen/src/app/tab3/tab3.page.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+            <element signature="n#!!block;n#actualizar#0;n#Tab3Page#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examen-2do-bim/frontend/examen/src/app/tab2/tab2.page.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="151" column="3" lean-forward="true" selection-start-line="151" selection-start-column="3" selection-end-line="151" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+            <element signature="n#!!block;n#ngOnInit#0;n#Tab2Page#0" />
+            <element signature="n#!!block;n#agregar#0;n#Tab2Page#0" />
+            <element signature="n#!!block;n#eliminar#0;n#Tab2Page#0" />
+            <element signature="n#!!block;n#presentAlert#0;n#Tab2Page#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examen-2do-bim/frontend/examen/src/app/tabs/tabs.router.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examen-2do-bim/frontend/examen/src/app/app-routing.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examen-2do-bim/frontend/examen/src/app/servicios/guards/esta-logeado.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examen-2do-bim/frontend/examen/src/app/autenticacion/login/login.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
-          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-backend/tienda-backend/config/datastores.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="54" selection-start-line="54" selection-end-line="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-backend/tienda-iot/config/bootstrap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="28" column="29" lean-forward="true" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-backend/tienda-iot/api/controllers/SensorController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="64" selection-start-line="12" selection-start-column="64" selection-end-line="12" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-backend/tienda-backend/api/controllers/LedController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-backend/tienda-backend/config/routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1">
-          <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-backend/tienda-iot/config/routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

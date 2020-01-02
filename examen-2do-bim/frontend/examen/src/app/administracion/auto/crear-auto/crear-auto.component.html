@@ -1,0 +1,88 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Administracion de Autos
+    </ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <form
+          #formulario="ngForm"
+          novalidate
+          (submit)="guardarAuto(formulario)"
+  >
+
+    <ion-item>
+
+      <ion-label > Chasis </ion-label>
+      <ion-input id="chasis"
+                 required
+                 minlength="3"
+                 pattern="[A-Z][a-z]*"
+                 name="chasis" type="text"
+                 [(ngModel)]="chasis">
+      </ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label> Modelo </ion-label>
+      <ion-input id="modelo"
+                 required
+                 minlength="3"
+                 pattern="[A-Z][a-z]*"
+
+                 name="modelo" type="text"
+                 [(ngModel)]="modelo"
+      >
+      </ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label >Marca</ion-label>
+      <ion-input type="text" id="marca"
+                 name="marca"
+                 required
+                 [(ngModel)]="marca" >
+      </ion-input>
+    </ion-item>
+
+    <ion-item >
+      <ion-label > Color Uno </ion-label>
+      <ion-input id="colorUno"
+                 name="colorUno" type="text"
+                 [(ngModel)]="colorUno">
+      </ion-input>
+    </ion-item>
+
+    <ion-item >
+      <ion-label > Color Dos </ion-label>
+      <ion-input id="colorDos"
+                 name="colorDos" type="text"
+                 [(ngModel)]="colorDos">
+      </ion-input>
+    </ion-item>
+
+    <ion-item >
+      <ion-label > Año </ion-label>
+      <ion-input id="anio"
+                 name="anio" type="number"
+                 [(ngModel)]="anio">
+      </ion-input>
+    </ion-item>
+
+    <ion-item >
+      <ion-label > Precio </ion-label>
+      <ion-input id="precio"
+                 name="precio" type="number"
+                 [(ngModel)]="precio">
+      </ion-input>
+    </ion-item>
+
+    <ion-button type="submit" class="btn btn-outline-success"  > Agregar </ion-button>
+
+  </form>
+</ion-content>
